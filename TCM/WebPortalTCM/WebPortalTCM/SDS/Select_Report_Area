@@ -1,0 +1,29 @@
+				  SELECT DISTINCT SS.Site_ID,CC.Code,DS.Node,TT.Affected_TRUs,DS.DownTime_StartDate,SS.Site_Type,DS.LastModified_Date,SS.Area,SS.Region,Cell.Request_Status,
+						HUB,
+						CASE WHEN TTnumber IS NULL 
+							THEN '[RSV] ' + Incident_ID 
+							ELSE TTnumber
+							END TTnumber,
+						CAST(SA_Time AS VARCHAR(50)) SA_Time,
+						CASE WHEN TTnumber IS NULL 
+							THEN '[RSV] '+ RSV.Assigned_Group
+							ELSE TT.Assigned_Team
+							END Assigned_Team,TT.Chronic_Site,TT.Outage,TT.Site_Grade,
+						dbo.Cascaded_sites(CC.Code) Number_of_Cascaded,
+						DATEDIFF(day,DS.DownTime_StartDate,DS.LastModified_Date) downDays
+				FROM dbo.tbl_SS_DownSites DS
+				  LEFT OUTER JOIN dbo.tbl_SS_LK_SubRegions_Sites SS
+				  ON  SS.Site_ID = (Select case WHEN DS.[Site_ID] LIKE '%[a-z]%' THEN DS.[Site_ID]
+									 				ELSE cast(CAST(DS.[Site_ID] as int) as nvarchar(50))
+													END )
+				  LEFT OUTER JOIN dbo.tbl_SS_Remedy_TT TT
+				  ON  TT.Site_ID = DS.Site_ID
+				  LEFT OUTER JOIN dbo.vw_SS_Remedy_TT_SDS_Resolved RSV
+				  ON RSV.SiteID = DS.Site_ID
+				  LEFT OUTER JOIN dbo.vw_SS_Remedy_TT_CellTask Cell
+				  ON DS.Site_ID = Cell.Site_ID AND Request_Status = 'Halt'
+				  LEFT OUTER JOIN dbo.tbl_SS_Coded_Connectivity CC
+				  ON  CC.Site_ID = DS.Site_ID
+				  where SS.Site_ID IS NOT NULL
+				  AND SS.Area = '$area'
+				  ORDER BY 2,1 ASC;

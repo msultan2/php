@@ -1,0 +1,231 @@
+Products & Services Delivery,Charging & Mediation,Prepaid/Data Charging,Prepaid Charging,Technology,Prepaid Charging
+Products & Services Delivery,Charging & Mediation,Prepaid/Data Charging,Data and Event Charging,Technology,Data and Event Charging
+Products & Services Delivery,Charging & Mediation,Payment Services,Tech-PSD Payment Products,Technology,Tech-PSD Payment Products
+Products & Services Delivery,Charging & Mediation,Mediation,OffLine Mediation,Technology,OffLine Mediation
+Products & Services Delivery,Charging & Mediation,Prepaid Engineering,New,New,New
+Products & Services Delivery,Services Planning,Messaging,Tech-PSD Voice and Messaging,Technology,Tech-PSD Voice and Messaging
+Products & Services Delivery,Services Planning,Data & Innovation,Tech-PSD Data and Internet,Technology,Tech-PSD Data and Internet
+Products & Services Delivery,Services Planning,Online Enterprise,Products & Services Delivery,Technology,P&SD Billing
+Products & Services Delivery,Services Planning,Systems Delivery,Prepaid Charging,Technology,Tech-PSD Systems
+Products & Services Delivery,Services Planning,Voice & Content,Tech-PSD Voice and Messaging,Technology,Tech-PSD Voice and Messaging
+Products & Services Delivery,Capacity Planning & Support,Capacity Planning,New,New,New
+Products & Services Delivery,Charging & Mediation,Post-Paid Charging,Products & Services Delivery,Technology,P&SD Billing
+Products & Services Delivery,Business Intelligence,BI EIS Reporting,Products & Services Delivery,Technology,P&SD Data Warehouse
+Products & Services Delivery,Business Intelligence,BI CVM,Products & Services Delivery,Technology,P&SD Data Warehouse
+Products & Services Delivery,Business Intelligence,BI Extraction,Products & Services Delivery,Technology,P&SD Data Warehouse
+Products & Services Delivery,Business Intelligence,BI Information Governance,Products & Services Delivery,Technology,P&SD Data Warehouse
+Products & Services Delivery,CRM & Sales,Middleware,New,New,New
+Products & Services Delivery,CRM & Sales,CRM Solution,Products & Services Delivery,Technology,P&SD Applications
+Products & Services Delivery,CRM & Sales,Finance & HR systems,CRM & Sales,CRM & Sales,Finance & HR systems
+Products & Services Delivery,Customer Management Systems,P&SD Business Processes Automation,Products & Services Delivery,Technology,P&SD Business Processes Automation
+Products & Services Delivery,Customer Management Systems,P&SD Contact Center Interaction Management,Products & Services Delivery,Technology,P&SD CRM CTI-IVR
+Products & Services Delivery,Customer Management Systems,P&SD Risk & POS,Products & Services Delivery,Technology,P&SD Internet
+Products & Services Delivery,Customer Management Systems,P&SD Commission & Extranet,Products & Services Delivery,Technology,P&SD Applications
+Network Engineering,Packet Networks & IMS,Packet Planning,New,New,New
+Network Engineering,Packet Networks & IMS,Packet Configuration,Core Networks,Technology,Packet Planning
+Network Engineering,Packet Networks & IMS,Internet Services,New,New,New
+Network Engineering,Packet Networks & IMS,Data Optimization,New,New,New
+Network Engineering,Packet Networks & IMS,GSM Security,GSM Security,Technology,GSM Security
+Network Engineering,Voice Net. Planning & Demand,RAN,Tech-RN Radio Systems,Technology,RAN Technologies
+Network Engineering,Voice Net. Planning & Demand,Roaming & IREG,Core Networks,Technology,Roaming-First Line
+Network Engineering,Voice Net. Planning & Demand,Roaming Planning & Implementation,TECH-CN Roaming Planning & Implementation,Technology,TECH-CN Roaming Planning & Implementation
+Network Engineering,Voice Net. Planning & Demand,DT & NW configuration,Core Networks,Technology,Configuration & DT
+Network Engineering,Voice Net. Planning & Demand,Voice Design & Optimization,Core Networks,Technology,Optimization
+Network Engineering,Voice Net. Planning & Demand,Capacity Planning & Demand,New,New,New
+Network Engineering,Voice Net. Planning & Demand,PM,New,New,New
+Network Engineering,Carrier Resource Acquisition & International,International Resources Acquisition,New,New,New
+Network Engineering,Carrier Resource Acquisition & International,Mobile Resources Acquisition,Transmission Governance,Technology,Transmission Governance
+Network Engineering,Carrier Resource Acquisition & International,Fixed Resources Acquisition,Fixed Network Installation,RESOURCE ACQUISITION,RESOURCE ACQUISITION
+Network Engineering,Carrier Resource Acquisition & International,Resources Efficiency & Optimization,New,New,New
+Network Engineering,Transmission Networks Engineering,Backhaul Transmission,TX Backhual,Technology,TX Backhual
+Network Engineering,Transmission Networks Engineering,Backbone Transmission,TX Backbone,Technology,TX Backbone
+Network Engineering,Transmission Networks Engineering,Fixed Transmission,Fixed Network Installation,NETWORK PLANNIG,NETWORK PLANNIG
+Network Engineering,IP Network Engineering,IP Backbone Engineering,Datacom,Technology,IPBB-Planning
+Network Engineering,IP Network Engineering,Fixed Core Configuration,Fixed Networks - Core Configuration,Technology,Fixed Networks - Core Configuration
+Network Engineering,IP Network Engineering,Fixed Core Design,New,New,New
+Network Engineering,IP Network Engineering,CPN Engineering,Datacom,Technology,IPBB-Planning
+Network Engineering,Site / Power Network Engineering,MTX Planning & Optimization,New,New,New
+Network Engineering,Site / Power Network Engineering,Access Network Support,New,New,New
+Service Management,Transport & MTX SM,Datacom/IP switch SM,Core & TX Operations,Transport,Datacom 2nd Line
+Service Management,Transport & MTX SM,MTX SM (Zahraa & C5),Core & TX Operations,"TX, IP & Facilities SM","MTX SM - Zahraa, Tagamoa"
+Service Management,Transport & MTX SM,MTX SM ( Alex & Mok & RM),Core & TX Operations,"TX, IP & Facilities SM","MTX SM - RMD, Alex, Mokattam"
+Service Management,Transport & MTX SM,MTX SM (HQ & BS),Core & TX Operations,"TX, IP & Facilities SM","MTX SM - HQ, Beni Suef"
+Service Management,Transport & MTX SM,MTX SM - Shift Leaders,Core & TX Operations,"TX, IP & Facilities SM",MTX SM - Shift Leaders
+Service Management,Transport & MTX SM,TX & Access NW- BSC/RNC cutover,Core & TX Operations,BSS Switching 2nd Line,BSS Switching 2nd Line
+Service Management,Transport & MTX SM,TX & Access NW- Transmission change,Core & TX Operations,Transport,TX 2nd Line
+Service Management,Transport & MTX SM,Access & Backhaul SM Support,Core & TX Operations,Transport,TX 2nd Line
+Service Management,Transport & MTX SM,Backbone & Tx services SM- NW Support,New,New,New
+Service Management,Transport & MTX SM,Backbone & Tx services SM- Vendor E///,Core & TX Operations,Transport,BEP 1.0 Ericsson
+Service Management,Transport & MTX SM,Backbone & Tx services SM- Vendor Hauwei,Core & TX Operations,Transport,BEP 2.0 Hauwei
+Service Management,Transport & MTX SM,Backbone & Tx services SM- Vendor SIEA,New,New,New
+Service Management,Transport & MTX SM,TE coordinat,New,New,New
+Service Management,Transport & MTX SM,E2E Tx Path testing,New,New,New
+Service Management,Transport & MTX SM,TE Support & SDM- TE coordinat,New,New,New
+Service Management,SOC Transport /IP Front Desk,Transport BO,NMC,Transport,Back office Transport
+Service Management,SOC Transport /IP Front Desk,Transport FO Tx,NMC,Transport,Front Office Tx
+Service Management,SOC Transport /IP Front Desk,Transport FO Datacom,NMC,Transport,Front Office Datacom
+Service Management,SOC Voice,Alex & Delta Access Service FO,NMC,Access Radio Alex,Front Office
+Service Management,SOC Voice,Alex & Delta Access Service BO,NMC,Access Radio Alex,Back office
+Service Management,SOC Voice,Cairo Access Service FO,NMC,Access Radio Cairo,Front Office
+Service Management,SOC Voice,Cairo Access Service BO,NMC,Access Radio Cairo,Back office
+Service Management,SOC Voice,Core Service FO,NMC,Core Network,Front Office
+Service Management,SOC Voice,Core Service BO,NMC,Core Network,Back office
+Service Management,SOC Voice,HU Access Service FO,NMC,Huawei,Front Office
+Service Management,SOC Voice,HU Access Service BO,NMC,Huawei,Back office
+Service Management,SOC Voice,Access Planned Activities,NMC,Technology,NMC Planned Activity
+Service Management,SOC Fixed/Data Service Front Desk,Internet/Data BO,NMC,Internet & Data,BO GPRS & HLR/ BO Fixed Network
+Service Management,SOC Fixed/Data Service Front Desk,Internet/Data FO,NMC,Internet & Data,FO GPRS & HLR/ FO Fixed Network
+Service Management,SOC Roaming/INT Service Desk,Roaming FO,Core Networks,Technology,Roaming-First Line
+Service Management,SOC Roaming/INT Service Desk,Services FO,NMC,New,New
+Service Management,SOC IT Service Desk,IT Service Desk,NMC,New,New
+Service Management,SOC Shift Leader,SOC Shift Leader,NMC,Technology,NMC Shift Leader
+Service Management,Charging IN & Mediation,Charging Support,Service Operation,Technology,Charging
+Service Management,Charging IN & Mediation,Mediation Support,Service Operation,Technology,IN
+Service Management,Mobile Internet & Enterprise,Fixed Network Support,Service Operation,Fixed network,Network Support
+Service Management,Mobile Internet & Enterprise,Fixed Access Configuration,Fixed Network Installation,ACCESS CONFIGURATION,ACCESS CONFIGURATION
+Service Management,Mobile Internet & Enterprise,Mobile Internet & Data 2nd line Support,Core & TX Operations,Internet & Data,GPRS 2nd Line
+Service Management,Mobile Internet & Enterprise,Fixed NW- Rollout & acceptance,Fixed Network Installation,ROLLOUT & ACCEPTANCE,ROLLOUT & ACCEPTANCE
+Service Management,Mobile Internet & Enterprise,Fixed NW- Customer & Network Deployment,Fixed Network Installation,IMPLEMENTATION,IMPLEMENTATION
+Service Management,Mobile Internet & Enterprise,Fixed NW- Infra Structure Deployment,New,New,New
+Service Management,Mobile Internet & Enterprise,Fixed NW- field support,New,new,new
+Service Management,Mobile Internet & Enterprise,Enterprise Projects- SR Fixed Network,Fixed Network Installation,FIXED DEMAND MANAGEMENT,FIXED DEMAND MANAGEMENT
+Service Management,E2E SA and customer Complaints,Global Customer Complaints,Global incident management,Tech-IM,Tech-IM
+Service Management,E2E SA and customer Complaints,Individual Incident Service Desk,CTS,Technology,CTS
+Service Management,E2E SA and customer Complaints,Technical Service Desk,Tech support center,Technology,Technical Service Desk
+Service Management,E2E SA and customer Complaints,Customer Care Account Management,New,New,New
+Service Management,E2E SA and customer Complaints,E2E Internet & Enterprise SA,Operation & maintenance,Service operation,Fixed network support
+Service Management,E2E SA and customer Complaints,E2E IT SA,New,New,New
+Service Management,E2E SA and customer Complaints,E2E Network SA,Quality Service Assurance,Tech E2E Service Assurance,Tech E2E Service Assurance
+Service Management,E2E SA and customer Complaints,E2E P&S SA,Quality Service Assurance,Tech E2E Service Assurance,Tech E2E Service Assurance
+Service Management,E2E SA and customer Complaints,Network Coverage Complaints,Quality Service Assurance,Technology incident management,Coverage complains
+Service Management,E2E SA and customer Complaints,Network Coverage Complaints Technicians,Quality Service Assurance,Technology incident management,Coverage complains technicians
+Service Management,"Network Management, Planning & Support",NSM,Operation Planning,NSM,NSM
+Service Management,"Network Management, Planning & Support",Automation,Operation Planning,Automation,Automation
+Service Management,"Network Management, Planning & Support",Planning & Support,New,New,New
+Service Management,Voice SM,Voice Core Support,Core & TX Operations,Core Switching 2nd Line,Core Switching 2nd Line
+Service Management,Voice SM,Voice Access Support,Core & TX Operations,BSS Switching 2nd Line,BSS Switching 2nd Line
+Service Management,Voice SM,Voice CSDB Support,Core & TX Operations,HLR 2nd Line,HLR 2nd Line
+Service Management,Network Information,Payments & Money Transfer Support,Service Operation,Technology,Payment
+Service Management,Network Information,Messaging Support,Service Operation,Technology,VAS Support
+Service Management,Network Information,VAS Support,Service Operation,Technology,VAS Support
+Service Management,Technology Change Management,Technology Change Management team,New,New,New
+IT Operations,Front End Apps. Ops.,CRM Applications,Data Center,Application Support,CRM
+IT Operations,Front End Apps. Ops.,Online Applications,Data Center,Application Support,Internet
+IT Operations,Front End Apps. Ops.,Retail &Remedy Applications,Data Center,Application Support,Point Of Sale
+IT Operations,Front End Apps. Ops.,Microsoft FE Applications,Desktop & Infrastructure,MS Systems Support,Systems Solutions
+IT Operations,Front End Apps. Ops.,HD / Applications monitoring - CC IT-Service Desk,TECH Support Center,Technology,CC IT-Service Desk
+IT Operations,Front End Apps. Ops.,HD / Applications monitoring - IT-Service Desk,TECH Support Center,Technology,IT-Service Desk
+IT Operations,Front End Apps. Ops.,HD / Applications monitoring - VIS IT-Service Desk,TECH Support Center,Technology,VIS IT-Service Desk
+IT Operations,Back End Apps. Ops.,Billing & Provisioning Operation,Data Center,Application Support,BSCS Batch
+IT Operations,Back End Apps. Ops.,Middle Ware Application,Data Center,Application Support,TIBCO
+IT Operations,Back End Apps. Ops.,BI & Engineered Systems Mgmt,Data Center,Application Support,Data Warehouse
+IT Operations,Back End Apps. Ops.,Enterprise Application Operation,Data Center,Application Support,Oracle
+IT Operations,Back End Apps. Ops.,Microsoft Back End Operation,Desktop & Infrastructure,MS Systems Support,Messaging & Management
+IT Operations,IT Systems Infrastructure,Enterprise Database Admin,Data Center,Database,DBA Team
+IT Operations,IT Systems Infrastructure,CC Database Admin,Data Center,Database,DBA Team
+IT Operations,IT Systems Infrastructure,Enterprise Systems Admin,Data Center,Systems,Systems UNIX
+IT Operations,IT Systems Infrastructure,CC Systems Admin,Data Center,Systems,Systems UNIX
+IT Operations,IT Systems Infrastructure,MS Enterprise Systems,Data Center,Systems,Systems Microsoft
+IT Operations,IT Systems Infrastructure,DT MS Systems,Desktop & Infrastructure,MS Systems Support,Systems Infrastructure
+IT Operations,IT Systems Infrastructure,Backup & Storage,Data Center,Systems,Systems Backup
+IT Operations,IT Voice & Data Networks,Voice Network,IT - Desktop & Infrastructure,Technology,TECH-DI Voice
+IT Operations,IT Voice & Data Networks,CC Infrastructure,IT - Desktop & Infrastructure,Technology,TECH-DI Voice
+IT Operations,IT Voice & Data Networks,Data Network WAN,IT - Desktop & Infrastructure,Technology,TECH-DI Data Network
+IT Operations,IT Voice & Data Networks,Data Network LAN,IT - Desktop & Infrastructure,Technology,TECH-DI Data Network
+IT Operations,Data Center Operations& Technical Support,Enterprise Technical Support,Desktop & Infrastructure,Internal Support,Internal Support Team
+IT Operations,Data Center Operations& Technical Support,Remote Sites Technical Support,Desktop & Infrastructure,Remote Support,Remote Sites Support
+IT Operations,Data Center Operations& Technical Support,"Leadership Techncial Support ""C2 & leadership team""",Desktop & Infrastructure,Internal Support,Internal Support Team
+IT Operations,Data Center Operations& Technical Support,Data Center Operations,DC Services,Technology,Service Engineer
+IT Operations,Data Center Operations& Technical Support,HW Operations,Desktop & Infrastructure,Hardware Support,Equipment Management Team
+IT Operations,Data Center Operations& Technical Support,Disaster Recovery Ops. & IT Assest Mgmt,New,New,New
+IT Operations,IT Security Operations,Network & Services Security,Desktop & Infrastructure,IT Security Operations,Network Security
+IT Operations,IT Security Operations,User Access Control,Desktop & Infrastructure,IT Security Operations,Application Security
+IT Operations,IT Security Operations,Endpoint client Security.,New,New,New
+Regional Operations,Cairo Region,Rollout Cairo,Access Network,Greater Cairo,Rollout
+Regional Operations,Cairo Region,Radio - Cairo East Radio Optimization,Access Network,Greater Cairo,Tech-RN Radio Systems - Cairo East Radio Optimization
+Regional Operations,Cairo Region,Radio - Cairo West Radio Optimization,Access Network,Greater Cairo,Tech-RN Radio Systems - Cairo West Radio Optimization
+Regional Operations,Cairo Region,Radio Planning Cairo,Access Network,Greater Cairo,Tech-RN Radio Systems - Radio Planning
+Regional Operations,Cairo Region,Site Management Cairo,Access Network,Greater Cairo,Site Management
+Regional Operations,Cairo Region,NFM Cairo East,New,New,New
+Regional Operations,Cairo Region,NFM Cairo Micro E2E,New,New,New
+Regional Operations,Cairo Region,NFM Cairo South & Middle,New,New,New
+Regional Operations,Cairo Region,NFM Cairo West,New,New,New
+Regional Operations,Cairo Region,NFM High Capacity,Access Operation,Cairo,High Capacity
+Regional Operations,Alex & North Coast Region,Rollout Alex & North Coast,Access Network,Northern,Rollout
+Regional Operations,Alex & North Coast Region,Alex Region Radio Planning Team,Access Network,Northern,Tech-RN Radio Systems - Alex
+Regional Operations,Alex & North Coast Region,Alex Region Radio Optimization Team,Access Network,Northern,Tech-RN Radio Systems - Alex
+Regional Operations,Alex & North Coast Region,Site Management Alex East,Access Network,Northern,Site Management
+Regional Operations,Alex & North Coast Region,Site Management Alex & North Coast,Access Network,Northern,Site Management
+Regional Operations,Alex & North Coast Region,NFM Alex East,New,New,New
+Regional Operations,Alex & North Coast Region,NFM Alex West NC,New,New,New
+Regional Operations,Alex & North Coast Region,NFM Alex West,New,New,New
+Regional Operations,Delta Region,Delta Rollout (Dakahlia – Dumyat – Beheira – Monofia),New,New,New
+Regional Operations,Delta Region,Delta Rollout (Gharbiya – Sharqia – KafrElShikh – Qalubiya),New,New,New
+Regional Operations,Delta Region,Delta Rollout (Sharing),New,New,New
+Regional Operations,Delta Region,Radio Planning and Design Delta West,Access Network,Northern,Tech-RN Radio Systems - Delta
+Regional Operations,Delta Region,Radio Planning and Design Delta East,Access Network,Northern,Tech-RN Radio Systems - Delta
+Regional Operations,Delta Region,Radio Optimization Delta,Access Network,Northern,Tech-RN Radio Systems - Delta
+Regional Operations,Delta Region,Site Management Delta,Access Network,Northern,Site Management
+Regional Operations,Delta Region,NFM Delta West,New,New,New
+Regional Operations,Delta Region,NFM Delta East,New,New,New
+Regional Operations,Delta Region,NFM Delta Middle,New,New,New
+Regional Operations,Upper & Red Sea Region,"Rollout Technical Canal, Red Sea ,South Sinai,Fayoum,Asyout & Sohag",Access Network,Southern,Rollout
+Regional Operations,Upper & Red Sea Region,"Rollout Access Canal, Red Sea ,South Sinai,Fayoum,Asyout & Sohag",Access Network,Southern,Rollout
+Regional Operations,Upper & Red Sea Region,"Rollout Technical New Valley, Luxor ,Minya,Qena,North Sinai, Bani Sweif& Aswan",Access Network,Southern,Rollout
+Regional Operations,Upper & Red Sea Region,"Rollout Access New Valley, Luxor ,Minya,Qena,North Sinai, Bani Sweif& Aswan",Access Network,Southern,Rollout
+Regional Operations,Upper & Red Sea Region,"Radio Planning Fayoum, Bani Sweif & Minia",Access Network,Southern,Tech-RN Radio Systems -
+Regional Operations,Upper & Red Sea Region,Radio Optimization Fayoum,Access Network,Southern,Tech-RN Radio Systems -
+Regional Operations,Upper & Red Sea Region,Radio Optimization Bani Sweif,Access Network,Southern,Tech-RN Radio Systems -
+Regional Operations,Upper & Red Sea Region,Radio Optimization Minia,Access Network,Southern,Tech-RN Radio Systems -
+Regional Operations,Upper & Red Sea Region,Radio Planning Asyuit,Access Network,Southern,Tech-RN Radio Systems -
+Regional Operations,Upper & Red Sea Region,Radio Planning Souhag,Access Network,Southern,Tech-RN Radio Systems -
+Regional Operations,Upper & Red Sea Region,Radio Planning Qena,Access Network,Southern,Tech-RN Radio Systems -
+Regional Operations,Upper & Red Sea Region,Radio Planning Luxor,Access Network,Southern,Tech-RN Radio Systems -
+Regional Operations,Upper & Red Sea Region,Radio Planning Aswan,Access Network,Southern,Tech-RN Radio Systems -
+Regional Operations,Upper & Red Sea Region,Radio Planning New Valley,Access Network,Southern,Tech-RN Radio Systems -
+Regional Operations,Upper & Red Sea Region,Radio Planning Red sea North & South,Access Network,Southern,Tech-RN Radio Systems -
+Regional Operations,Upper & Red Sea Region,Radio Planning Canal Area,Access Network,Southern,Tech-RN Radio Systems -
+Regional Operations,Upper & Red Sea Region,Radio Planning Sinai North,Access Network,Southern,Tech-RN Radio Systems -
+Regional Operations,Upper & Red Sea Region,Radio Planning Sinai South,Access Network,Southern,Tech-RN Radio Systems -
+Regional Operations,Upper & Red Sea Region,Radio Optimization Asyuit & Souhag,Access Network,Southern,Tech-RN Radio Systems -
+Regional Operations,Upper & Red Sea Region,Radio Optimization Qena,Access Network,Southern,Tech-RN Radio Systems -
+Regional Operations,Upper & Red Sea Region,"Radio Optimization Luxor, Aswan & New Valley",Access Network,Southern,Tech-RN Radio Systems -
+Regional Operations,Upper & Red Sea Region,Radio Optimization Red sea North & South,Access Network,Southern,Tech-RN Radio Systems -
+Regional Operations,Upper & Red Sea Region,Radio Optimization Canal Area,Access Network,Southern,Tech-RN Radio Systems -
+Regional Operations,Upper & Red Sea Region,Radio Optimization Sinai North,Access Network,Southern,Tech-RN Radio Systems -
+Regional Operations,Upper & Red Sea Region,Radio Optimization Sinai South,Access Network,Southern,Tech-RN Radio Systems -
+Regional Operations,Upper & Red Sea Region,Site Management-Sohaq-Qena-Luxor-Aswan,Access Network,Southern,Site Management
+Regional Operations,Upper & Red Sea Region,Site Management Menya-Assuit-Wadi El Gedid,Access Network,Southern,Site Management
+Regional Operations,Upper & Red Sea Region,Site Management Fayoum-Beni Sweif-El Ayaat-El Saf-Port Said-Ismailia-Wahat,Access Network,Southern,Site Management
+Regional Operations,Upper & Red Sea Region,Site Management Suez-Ein Sokhna-Red Sea,Access Network,Southern,Site Management
+Regional Operations,Upper & Red Sea Region,Site Management North Sinai-South Sinai,Access Network,Southern,Site Management
+Regional Operations,Upper & Red Sea Region,NFM Upper & Middle,New,New,New
+Regional Operations,Upper & Red Sea Region,"NFM Red Sea, Canal & Sinai",New,New,New
+Regional Operations,Upper & Red Sea Region,NFM South Sinai,New,New,New
+Regional Operations,Upper & Red Sea Region,NFM North Upper,New,New,New
+Regional Operations,Transmission Planning & Installation,TX-Planning & Installation - Cairo & Alex,Access Network Services,TX-Implementation & Technical Survey,Alex& North coast
+Regional Operations,Transmission Planning & Installation,TX-Planning & Installation - Cairo & Alex,Access Network Services,TX-Implementation & Technical Survey,Cairo
+Regional Operations,Transmission Planning & Installation,Special Projects,Access Network Services,Special Projects,Special Projects
+Regional Operations,Transmission Planning & Installation,Special Projects,TX-Planning,Technology,TX-Planning
+Regional Operations,Transmission Planning & Installation,TX-Planning & Installation - Delta & Upper,Access Network Services,TX-Implementation & Technical Survey,Giza& Red-sea
+Regional Operations,Transmission Planning & Installation,TX-Planning & Installation - Delta & Upper,Access Network Services,TX-Implementation & Technical Survey,Delta
+Regional Operations,Transmission Planning & Installation,TX-Planning & Installation - Delta & Upper,Access Network Services,TX-Implementation & Technical Survey,Sinai & Canal
+Regional Operations,Network Service,MCC & Field activities -Network Service,Access Operation,Access Services,MCC
+Regional Operations,Network Service,Civil Acceptance,Access Network Services,Civil Acceptance & Sefty,Civil Acceptance & Sefty
+Regional Operations,Network Service,RF Implementation/special project,Access Network Services,RF Implementation,RF Implementation
+Regional Operations,Network Service,NTRA Management,NEW,NEW,NEW
+Regional Operations,Network Service,Health & Safety Management,NEW,NEW,NEW
+Regional Operations,Network Service,Telecom Acceptance,Access Network Services,Telecom Acceptance,Telecom Acceptance
+Regional Operations,Network Service,Utility Power,Power Operations,Utility Power,Utility Power
+Regional Operations,Network Service,Generators Workshop,Power Operations,Generators Workshop,Generators Workshop
+Regional Operations,Network Service,Civil Maintenance Team,Power Operations,Civil Maintenance Team,Civil Maintenance Team
+Regional Operations,Network Service,Site Infrastructure & Power Backup System,Power Operations,Site Infrastructure & Power Backup System,Site Infrastructure & Power Backup System
+Regional Operations,Business Support,Vendor Management,New,New,New
+Regional Operations,Business Support,Access Network SPOC,New,New,New
+Regional Operations,Business Support,Business support,New,New,New
+Regional Operations,Business Support,Site Sharing,New,New,New
+Customer Experience,Regional Quality Assurance,Regional Quality Assurance,New,New,New
+Customer Experience,Voice Network Quality Assurance,Voice Network Quality Assurance,Network Performance & Quality,Technology,Core & Tx Quality
+Customer Experience,Quality Tools & Network Analytics Insight,Quality Tools & Network Analytics Insight,New,New,New
+Customer Experience,P&S Quality & Business Support,P&S Quality & Business Support,New,New,New
+Customer Experience,Data Networks Quality Assurance,Data Networks Quality Assurance,Network Performance & Quality,Technology,Core & Tx Quality

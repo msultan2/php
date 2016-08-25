@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "http:\\egoct-witcm01\Rego\Rego_Remedy_file.php"

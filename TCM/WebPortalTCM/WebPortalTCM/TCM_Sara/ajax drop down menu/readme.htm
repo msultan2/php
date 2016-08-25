@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Slideshow content</title>
+<meta name="description" content="instructions slideshow content, fromm coursesweb.net" />
+<style type="text/css">
+.code{max-height:500px;min-width:28em;margin:1.2em 5px 1.5em 2.8em;background:yellow;border:1px solid #bbb;font-size:14px;padding:2px 3px 6px 3px;color:#0101ff;overflow:auto;word-wrap:break-word;font-weight:800;}
+.sb {font-weight:800;}
+</style>
+</head>
+<body>
+
+<h2>Instructions</h2>
+1) Copy the files: "<span class="sb">select_list.php</span>" and "<span class="sb">ajax_select.js</span>" on your server (with the code presented above), in the same directory.<br />
+In the PHP script, add your own data for connecting to MySQL, the table name (in $table) and the name of the columns with data for each Select list (in the array $ar_cols).<br /><br />
+ - For example, if you have a table named "cities", and you want to create a triple select drop down list with data stored in the columns: <span class="sb">"state", "city"</span>, and <span class="sb">"villages"</span>; then to display some descriptions about each village stored in another column named <span class="sb">"villdata"</span>, change the value of the $table and $ar_cols variables like this:
+<pre class="code">
+// Here add the name of the table and columns that will be used for select lists, in their order
+$table = 'cities';
+$ar_cols = array('state', 'city', 'villages', 'villdata');
+</pre>
+If you want to display only the three select lists (state, city, villages), or you not have a column with description, add <span class="sb">null</span> for the last element (in place of 'villdata').<br /><br />
+ - If you want to create two select drop down list, and then a description for the options of the second Select, add like this:
+<pre class="code">
+// Here add the name of the table and columns that will be used for select lists, in their order
+$table = 'table_name';
+$ar_cols = array('col_select1', 'col_select2', 'col_description');
+</pre>
+If you want to display only the Select lists associated with "col_select1" and "col_select2", replace 'col_description' with <span class="sb">null</span>.<br /><br />
+2) In the web page in which you want to display the select lists with Ajax:<br />
+ - You must include the "<span class="sb">select_list.php</span>" file at the beginning of the page, by adding the following php code, before the HTML code, or any output data (<span class="sb">this because it uses session_start()</span>):
+<pre class="code">&lt;?php include 'select_list.php'; ?&gt;</pre><br />
+ - Include the "<span class="sb">ajax_select.js</span>" file in the HEAD section of the HTML code, by adding the following code:
+<pre class="code">&lt;script src=&quot;ajax_select.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</pre><br />
+ - Then, in the form where you want to display the Select lists, add:
+<pre class="code">Select: &lt;?php echo $re_html; ?&gt;</pre>
+Like you can see in the example below, or in the "test.php" file (<span class="sb">in the archive downloaded from the link above</span>).<br /><br />
+&bull; The PHP script creates the first &lt;select&gt; with the options from the first column added in $ar_cols Array, then creates HTML tags in which Ajax will add the next Select lists. These HTML tags has an unique ID composed by the string added in $preid variable and the name of the column. The $preid is used to be sure that there isn't another element with the same ID on the page.<br /><br/>
+<p class="note">If you want to include the select drop down lists into a form, and then to send and use the selected options in other PHP script, you can get the selected value using the "<span class="sbi">name</span>" of each select, which is the same with the column name with the options for that select, added in the <span class="sb">$ar_cols</span> variable.<br/>
+ - For example, the first &lt;select&gt; has <span class="sbi">name="col_select1"</span> (the first value added in the $ar_cols array). To get the selected option of this dropdown list, use in your PHP script: <span class="sb">$_POST['col_select1']</span>.<br/>
+ The second Select list has <span class="sbi">name="col_select2"</span>  (the second value added in the $ar_cols array), and so on.</p><br/>
+<br/>
+
+<center>
+Courses for web programers, development and site building: <a href="http://coursesweb.net" title="Web Progamming Courses">CoursesWeb.net</a>
+</center>
+</body>
+</html>

@@ -1,0 +1,5 @@
+AuthName "My Protected Area"
+AuthType Basic
+AuthUserFile /home/mysite/.htpasswd
+AuthGroupFile /dev/null
+require valid-user

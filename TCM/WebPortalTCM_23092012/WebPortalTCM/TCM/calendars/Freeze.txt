@@ -1,0 +1,4 @@
+RX migration,13 Jun 2012,RX down for 3 mins,,Major
+25 Jun 2012, Complete Freeze, Prezidential Elections Results,,1
+Global Title,13 Jun 2012,no service impact,,Critical
+IT website down time,13 Jun 2012,no impact,,Minor

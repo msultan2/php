@@ -1,0 +1,7 @@
+PA,MSP integration,12 Jul 2012,no impact,RMD & HQ,test,Minor
+PA,RX migration,13 Jun 2012,RX down for 3 mins,,,Major
+PA,Global Title,13 Jun 2012,no service impact,,,Critical
+PA,IT website down time,13 Jun 2012,no impact,,,Minor
+FR,Prezidential Elections Results,25 Jun 2012,Complete Freeze,1,Critical
+PA,sara,5 Aug 2012,no service impact,,high
+PA,test,2 Feb 2013,no service impact,HQ,high

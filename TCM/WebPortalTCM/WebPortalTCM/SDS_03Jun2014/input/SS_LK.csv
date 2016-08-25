@@ -1,0 +1,501 @@
+Site_ID,Site_Type,Area,Region,LastModified_Date
+G2850,3G,North Coast East,Alexandria,4/27/2014 14:03
+G2866,3G,North Coast East,Alexandria,4/27/2014 14:03
+G2893,3G,Alex_4,Alexandria,4/27/2014 14:03
+G2920,3G,Alex_2,Alexandria,4/27/2014 14:03
+G4105,3G,Alex_4,Alexandria,4/27/2014 14:03
+G4120,3G,Alex Desert Road,Alexandria,4/27/2014 14:03
+G4122,3G,Alex Desert Road,Alexandria,4/27/2014 14:03
+G4125,3G,North Coast East,Alexandria,4/27/2014 14:03
+G4216,3G,North Coast West,Alexandria,4/27/2014 14:03
+G4388,3G,Alex Desert Road,Alexandria,4/27/2014 14:03
+G4486,3G,Alex_4,Alexandria,4/27/2014 14:03
+\N,2G,Alex Desert Road,Alexandria,4/27/2014 14:03
+\N,2G,Alex_1,Alexandria,4/27/2014 14:03
+\N,2G,Alex_4,Alexandria,4/27/2014 14:03
+\N,2G,Alex Desert Road,Alexandria,4/27/2014 14:03
+\N,2G,North Coast East,Alexandria,4/27/2014 14:03
+457,2G,Heliopolis and Nozha,Cairo,4/27/2014 14:03
+681,2G,Helwan,Cairo,4/27/2014 14:03
+924,2G,Heliopolis and Nozha,Cairo,4/27/2014 14:03
+977,2G,Abbassyia,Cairo,4/27/2014 14:03
+1222,2G,Shubra El-Khima,Cairo,4/27/2014 14:03
+1334,2G,Shubra El-Khima,Cairo,4/27/2014 14:03
+1371,2G,Down Town and Manyal,Cairo,4/27/2014 14:03
+G0059,3G,Down Town and Manyal,Cairo,4/27/2014 14:03
+G0071,3G,Zaitoun and Qubba,Cairo,4/27/2014 14:03
+G0073,3G,Nasr City,Cairo,4/27/2014 14:03
+G0095,3G,Obour,Cairo,4/27/2014 14:03
+G0112,3G,Abbassyia,Cairo,4/27/2014 14:03
+G0138,3G,Maadi,Cairo,4/27/2014 14:03
+G0150,3G,Matarya,Cairo,4/27/2014 14:03
+974,2G,Heliopolis and Nozha,Cairo,4/27/2014 14:03
+1091,2G,Moukattam,Cairo,4/27/2014 14:03
+1142,2G,Down Town and Manyal,Cairo,4/27/2014 14:03
+1173,2G,Shubra,Cairo,4/27/2014 14:03
+1254,2G,Helwan,Cairo,4/27/2014 14:03
+1333,2G,Down Town and Manyal,Cairo,4/27/2014 14:03
+G0014,3G,Airport,Cairo,4/27/2014 14:03
+G0025,3G,Shubra El-Khima,Cairo,4/27/2014 14:03
+G0033,3G,Shubra,Cairo,4/27/2014 14:03
+G0071,3G,Zaitoun and Qubba,Cairo,4/27/2014 14:03
+G0071,3G,Zaitoun and Qubba,Cairo,4/27/2014 14:03
+G0116,3G,Heliopolis and Nozha,Cairo,4/27/2014 14:03
+G0174,3G,Zaitoun and Qubba,Cairo,4/27/2014 14:03
+G0197,3G,Down Town and Manyal,Cairo,4/27/2014 14:03
+G0248,3G,10th of Ramadan,Cairo,4/27/2014 14:03
+G0250,3G,10th of Ramadan,Cairo,4/27/2014 14:03
+G0255,3G,Heliopolis and Nozha,Cairo,4/27/2014 14:03
+G0259,3G,Alsalam,Cairo,4/27/2014 14:03
+G0288,3G,Shubra El-Khima,Cairo,4/27/2014 14:03
+G0288,3G,Shubra El-Khima,Cairo,4/27/2014 14:03
+1235,2G,Down Town and Manyal,Cairo,4/27/2014 14:03
+1485,2G,Down Town and Manyal,Cairo,4/27/2014 14:03
+G0042,3G,Alsalam,Cairo,4/27/2014 14:03
+G0054,3G,Maadi,Cairo,4/27/2014 14:03
+G0101,3G,Heliopolis and Nozha,Cairo,4/27/2014 14:03
+G0106,3G,1st Gathering,Cairo,4/27/2014 14:03
+G0117,3G,Heliopolis and Nozha,Cairo,4/27/2014 14:03
+G0196,3G,Obour,Cairo,4/27/2014 14:03
+G0202,3G,Heliopolis and Nozha,Cairo,4/27/2014 14:03
+G0203,3G,Abbassyia,Cairo,4/27/2014 14:03
+G0225,3G,Heliopolis and Nozha,Cairo,4/27/2014 14:03
+G0243,3G,10th of Ramadan,Cairo,4/27/2014 14:03
+G0251,3G,10th of Ramadan,Cairo,4/27/2014 14:03
+G0261,3G,Shubra El-Khima,Cairo,4/27/2014 14:03
+G0269,3G,Shorouk and Badr,Cairo,4/27/2014 14:03
+G0292,3G,Moukattam,Cairo,4/27/2014 14:03
+C0153,2G,Matarya,Cairo,4/27/2014 14:03
+C0192,2G,Matarya,Cairo,4/27/2014 14:03
+C0196,2G,Obour,Cairo,4/27/2014 14:03
+C0221,2G,Nasr City,Cairo,4/27/2014 14:03
+G4404,3G,North Coast West,Alexandria,4/27/2014 14:03
+G4443,3G,North Coast West,Alexandria,4/27/2014 14:03
+G4446,3G,Alex Desert Road,Alexandria,4/27/2014 14:03
+G4452,3G,North Coast East,Alexandria,4/27/2014 14:03
+G4457,3G,North Coast West,Alexandria,4/27/2014 14:03
+G4462,3G,North Coast West,Alexandria,4/27/2014 14:03
+G4466,3G,North Coast East,Alexandria,4/27/2014 14:03
+G4467,3G,North Coast East,Alexandria,4/27/2014 14:03
+G4636,3G,Alex Desert Road,Alexandria,4/27/2014 14:03
+\N,2G,Alex_1,Alexandria,4/27/2014 14:03
+\N,2G,North Coast East,Alexandria,4/27/2014 14:03
+\N,2G,Alex Desert Road,Alexandria,4/27/2014 14:03
+381,2G,Obour,Cairo,4/27/2014 14:03
+423,2G,Down Town and Manyal,Cairo,4/27/2014 14:03
+458,2G,Ain Shams,Cairo,4/27/2014 14:03
+458,2G,Ain Shams,Cairo,4/27/2014 14:03
+467,2G,Shorouk and Badr,Cairo,4/27/2014 14:03
+468,2G,Heliopolis and Nozha,Cairo,4/27/2014 14:03
+760,2G,Maadi,Cairo,4/27/2014 14:03
+800,2G,Nasr City,Cairo,4/27/2014 14:03
+G2385,3G,North Coast West,Alexandria,4/27/2014 14:03
+G2456,3G,Alex Desert Road,Alexandria,4/27/2014 14:03
+G2456,3G,Alex Desert Road,Alexandria,4/27/2014 14:03
+G2458,3G,Alex_1,Alexandria,4/27/2014 14:03
+G2693,3G,Alex_2,Alexandria,4/27/2014 14:03
+G2805,3G,North Coast West,Alexandria,4/27/2014 14:03
+G2815,3G,Alex_4,Alexandria,4/27/2014 14:03
+G2826,3G,North Coast East,Alexandria,4/27/2014 14:03
+G2848,3G,North Coast East,Alexandria,4/27/2014 14:03
+G2861,3G,North Coast East,Alexandria,4/27/2014 14:03
+G2866,3G,North Coast East,Alexandria,4/27/2014 14:03
+\N,2G,North Coast East,Alexandria,4/27/2014 14:03
+G2884,3G,Alex_4,Alexandria,4/27/2014 14:03
+G2963,3G,Alex_2,Alexandria,4/27/2014 14:03
+G3801,3G,North Coast West,Alexandria,4/27/2014 14:03
+G4118,3G,Alex Desert Road,Alexandria,4/27/2014 14:03
+G4130,3G,North Coast East,Alexandria,4/27/2014 14:03
+G4135,3G,North Coast East,Alexandria,4/27/2014 14:03
+G4387,3G,Alex Desert Road,Alexandria,4/27/2014 14:03
+G2312,3G,North Coast West,Alexandria,4/27/2014 14:03
+G2322,3G,Alex Desert Road,Alexandria,4/27/2014 14:03
+G2323,3G,North Coast West,Alexandria,4/27/2014 14:03
+G2342,3G,Alex Desert Road,Alexandria,4/27/2014 14:03
+G2343,3G,Alex Desert Road,Alexandria,4/27/2014 14:03
+G2363,3G,North Coast West,Alexandria,4/27/2014 14:03
+G2376,3G,North Coast West,Alexandria,4/27/2014 14:03
+G2396,3G,Alex Desert Road,Alexandria,4/27/2014 14:03
+\N,2G,Alex_1,Alexandria,4/27/2014 14:03
+\N,2G,Alex_4,Alexandria,4/27/2014 14:03
+\N,2G,Alex_4,Alexandria,4/27/2014 14:03
+G2820,3G,North Coast East,Alexandria,4/27/2014 14:03
+\N,2G,Alex Desert Road,Alexandria,4/27/2014 14:03
+\N,2G,North Coast East,Alexandria,4/27/2014 14:03
+\N,2G,Alex_4,Alexandria,4/27/2014 14:03
+G4102,3G,North Coast East,Alexandria,4/27/2014 14:03
+G4113,3G,North Coast East,Alexandria,4/27/2014 14:03
+G4135,3G,North Coast East,Alexandria,4/27/2014 14:03
+G4213,3G,North Coast West,Alexandria,4/27/2014 14:03
+G4213,3G,North Coast West,Alexandria,4/27/2014 14:03
+819,2G,Nasr City,Cairo,4/27/2014 14:03
+913,2G,Heliopolis and Nozha,Cairo,4/27/2014 14:03
+917,2G,Heliopolis and Nozha,Cairo,4/27/2014 14:03
+993,2G,Heliopolis and Nozha,Cairo,4/27/2014 14:03
+1172,2G,Obour,Cairo,4/27/2014 14:03
+1252,2G,Helwan,Cairo,4/27/2014 14:03
+1411,2G,Maadi,Cairo,4/27/2014 14:03
+G0013,3G,Heliopolis and Nozha,Cairo,4/27/2014 14:03
+G0031,3G,Alsalam,Cairo,4/27/2014 14:03
+G0035,3G,Nasr City,Cairo,4/27/2014 14:03
+G0037,3G,Maadi,Cairo,4/27/2014 14:03
+G0048,3G,Helwan,Cairo,4/27/2014 14:03
+G0053,3G,Moukattam,Cairo,4/27/2014 14:03
+G0081,3G,Helwan,Cairo,4/27/2014 14:03
+G0081,3G,Helwan,Cairo,4/27/2014 14:03
+G0112,3G,Abbassyia,Cairo,4/27/2014 14:03
+G0116,3G,Heliopolis and Nozha,Cairo,4/27/2014 14:03
+G0117,3G,Heliopolis and Nozha,Cairo,4/27/2014 14:03
+G0128,3G,Maadi,Cairo,4/27/2014 14:03
+G0151,3G,Abbassyia,Cairo,4/27/2014 14:03
+G0160,3G,Nasr City,Cairo,4/27/2014 14:03
+G4389,3G,Alex Desert Road,Alexandria,4/27/2014 14:03
+G4390,3G,Alex Desert Road,Alexandria,4/27/2014 14:03
+G4403,3G,North Coast East,Alexandria,4/27/2014 14:03
+G4406,3G,North Coast West,Alexandria,4/27/2014 14:03
+G4413,3G,Alex Desert Road,Alexandria,4/27/2014 14:03
+G4481,3G,Alex Desert Road,Alexandria,4/27/2014 14:03
+G4482,3G,North Coast East,Alexandria,4/27/2014 14:03
+G4484,3G,North Coast East,Alexandria,4/27/2014 14:03
+G4487,3G,Alex Desert Road,Alexandria,4/27/2014 14:03
+G4498,3G,Alex Desert Road,Alexandria,4/27/2014 14:03
+1675,2G,Mouhandseen,Giza,4/27/2014 14:03
+4407,2G,Zayed,Giza,4/27/2014 14:03
+4317,2G,El-Sukhna,Ismailia,4/27/2014 14:03
+4322,2G,Ras Ghareb,Ismailia,4/27/2014 14:03
+5057,2G,Sharm El-Shiekh,Ismailia,4/27/2014 14:03
+5057,2G,Sharm El-Shiekh,Ismailia,4/27/2014 14:03
+5113,2G,Sharm El-Shiekh,Ismailia,4/27/2014 14:03
+5175,2G,Sinai North_Rural,Ismailia,4/27/2014 14:03
+5175,2G,Sinai North_Rural,Ismailia,4/27/2014 14:03
+4288,2G,Suez,Ismailia,4/27/2014 14:03
+G5121,3G,Sharm El-Shiekh,Ismailia,4/27/2014 14:03
+G5130,3G,Sharm El-Shiekh,Ismailia,4/27/2014 14:03
+G5200,3G,Arish,Ismailia,4/27/2014 14:03
+G5213,3G,Sharm El-Shiekh,Ismailia,4/27/2014 14:03
+\N,2G,Sinai North_Rural,Ismailia,4/27/2014 14:03
+6018,2G,Sahary AlAhram,Giza,4/27/2014 14:03
+6021,2G,Sahary AlAhram,Giza,4/27/2014 14:03
+6024,2G,Zayed,Giza,4/27/2014 14:03
+6053,2G,October,Giza,4/27/2014 14:03
+6066,2G,Kerdasa and Mansoraya,Giza,4/27/2014 14:03
+\N,2G,October,Giza,4/27/2014 14:03
+C0316,2G,Giza Outskirts,Giza,4/27/2014 14:03
+C0451,2G,Haram,Giza,4/27/2014 14:03
+C0613,2G,Imbaba,Giza,4/27/2014 14:03
+C0647,2G,Sahary AlAhram,Giza,4/27/2014 14:03
+C0772,2G,Haram,Giza,4/27/2014 14:03
+C0772,2G,Haram,Giza,4/27/2014 14:03
+C0781,2G,Shubra and Imbaba Outskirts,Giza,4/27/2014 14:03
+C1279,2G,Haram,Giza,4/27/2014 14:03
+5227,2G,Sinai South_Rural,Ismailia,4/27/2014 14:03
+G3103,3G,Hurghada,Ismailia,4/27/2014 14:03
+K2154,2G,Haram,Giza,4/27/2014 14:03
+\N,2G,Mouhandseen,Giza,4/27/2014 14:03
+\N,2G,Boulaq,Giza,4/27/2014 14:03
+K3188,2G,Haram,Giza,4/27/2014 14:03
+K3922,2G,Zayed,Giza,4/27/2014 14:03
+\N,2G,October,Giza,4/27/2014 14:03
+M1611,2G,October,Giza,4/27/2014 14:03
+M6213,2G,October,Giza,4/27/2014 14:03
+\N,2G,Sahary AlAhram,Giza,4/27/2014 14:03
+\N,2G,Haram,Giza,4/27/2014 14:03
+3334,2G,Red Sea South_Rural,Ismailia,4/27/2014 14:03
+3349,2G,Red Sea South_Rural,Ismailia,4/27/2014 14:03
+4007,2G,Portsaid,Ismailia,4/27/2014 14:03
+4058,2G,Suez,Ismailia,4/27/2014 14:03
+4268,2G,Portsaid Rural,Ismailia,4/27/2014 14:03
+4291,2G,Suez,Ismailia,4/27/2014 14:03
+4292,2G,Suez,Ismailia,4/27/2014 14:03
+G5133,3G,Sharm El-Shiekh,Ismailia,4/27/2014 14:03
+G5202,3G,Arish,Ismailia,4/27/2014 14:03
+G4425,3G,North Coast West,Alexandria,4/27/2014 14:03
+G4427,3G,North Coast West,Alexandria,4/27/2014 14:03
+G4443,3G,North Coast West,Alexandria,4/27/2014 14:03
+G4481,3G,Alex Desert Road,Alexandria,4/27/2014 14:03
+\N,2G,Alex_2,Alexandria,4/27/2014 14:03
+\N,2G,North Coast East,Alexandria,4/27/2014 14:03
+382,2G,Abbassyia,Cairo,4/27/2014 14:03
+383,2G,10th of Ramadan,Cairo,4/27/2014 14:03
+673,2G,Maadi,Cairo,4/27/2014 14:03
+779,2G,Down Town and Manyal,Cairo,4/27/2014 14:03
+903,2G,Heliopolis and Nozha,Cairo,4/27/2014 14:03
+943,2G,Heliopolis and Nozha,Cairo,4/27/2014 14:03
+1045,2G,Airport,Cairo,4/27/2014 14:03
+1057,2G,Nasr City,Cairo,4/27/2014 14:03
+1202,2G,Zamalek,Cairo,4/27/2014 14:03
+1328,2G,Down Town and Manyal,Cairo,4/27/2014 14:03
+G0012,3G,Zaitoun and Qubba,Cairo,4/27/2014 14:04
+G0032,3G,Ain Shams,Cairo,4/27/2014 14:04
+G0036,3G,Nasr City,Cairo,4/27/2014 14:04
+G0048,3G,Helwan,Cairo,4/27/2014 14:04
+C1665,2G,Sahary AlAhram,Giza,4/27/2014 14:04
+C1721,2G,Haram,Giza,4/27/2014 14:04
+C1743,2G,Mouhandseen,Giza,4/27/2014 14:04
+CK0513,2G,Haram,Giza,4/27/2014 14:04
+CK2056,2G,October,Giza,4/27/2014 14:04
+CK2105,2G,Haram,Giza,4/27/2014 14:04
+G3254,3G,Asyut,Upper Egypt,4/27/2014 14:04
+G3260,3G,Minya,Upper Egypt,4/27/2014 14:04
+G3262,3G,Bani Sweif_Rural,Upper Egypt,4/27/2014 14:04
+G3264,3G,Luxor_Rural,Upper Egypt,4/27/2014 14:04
+G3274,3G,Luxor,Upper Egypt,4/27/2014 14:04
+G3274,3G,Luxor,Upper Egypt,4/27/2014 14:04
+G3281,3G,Bani_Suef,Upper Egypt,4/27/2014 14:04
+G3282,3G,Bani_Suef,Upper Egypt,4/27/2014 14:04
+G3290,3G,Asyut,Upper Egypt,4/27/2014 14:04
+G3290,3G,Asyut,Upper Egypt,4/27/2014 14:04
+G3296,3G,Sohag,Upper Egypt,4/27/2014 14:04
+G3397,3G,Asyut,Upper Egypt,4/27/2014 14:04
+G3399,3G,Luxor_Rural,Upper Egypt,4/27/2014 14:04
+G3444,3G,Fayoum,Upper Egypt,4/27/2014 14:04
+G3489,3G,Minia_Rural,Upper Egypt,4/27/2014 14:04
+G3550,3G,Asyut_Rural,Upper Egypt,4/27/2014 14:04
+G3566,3G,Souhag_Rural,Upper Egypt,4/27/2014 14:04
+G3589,3G,Asyut,Upper Egypt,4/27/2014 14:04
+G3589,3G,Asyut,Upper Egypt,4/27/2014 14:04
+G3600,3G,Aswan_Rural,Upper Egypt,4/27/2014 14:04
+G3607,3G,Aswan_Rural,Upper Egypt,4/27/2014 14:04
+G3660,3G,Qena_Rural,Upper Egypt,4/27/2014 14:04
+G3683,3G,Souhag_Rural,Upper Egypt,4/27/2014 14:04
+G3727,3G,Souhag_Rural,Upper Egypt,4/27/2014 14:04
+G3781,3G,Fayoum_Rural,Upper Egypt,4/27/2014 14:04
+G3796,3G,Asyut_Rural,Upper Egypt,4/27/2014 14:04
+G3852,3G,Luxor,Upper Egypt,4/27/2014 14:04
+3450,2G,Minia_Rural,Upper Egypt,4/27/2014 14:04
+3572,2G,Souhag_Rural,Upper Egypt,4/27/2014 14:04
+3609,2G,Aswan_Rural,Upper Egypt,4/27/2014 14:04
+3683,2G,Souhag_Rural,Upper Egypt,4/27/2014 14:04
+3687,2G,Qena_Rural,Upper Egypt,4/27/2014 14:04
+3732,2G,Sohag,Upper Egypt,4/27/2014 14:04
+3789,2G,Qena_Rural,Upper Egypt,4/27/2014 14:04
+3805,2G,New Valley_Rural,Upper Egypt,4/27/2014 14:04
+G1840,3G,Shubra El-Khima,Cairo,4/27/2014 14:04
+G1865,3G,Shubra El-Khima,Cairo,4/27/2014 14:04
+G1878,3G,Moukattam,Cairo,4/27/2014 14:04
+G1888,3G,AlSalam,Cairo,4/27/2014 14:04
+G1890,3G,Hadabah Wostah,Cairo,4/27/2014 14:04
+G1913,3G,Matarya,Cairo,4/27/2014 14:04
+G1919,3G,Shubra El-Khima,Cairo,4/27/2014 14:04
+\N,2G,Alsalam,Cairo,4/27/2014 14:04
+G1941,3G,Matarya,Cairo,4/27/2014 14:04
+G1967,3G,Alsalam,Cairo,4/27/2014 14:04
+\N,2G,Shorouk and Badr,Cairo,4/27/2014 14:04
+\N,2G,Shorouk and Badr,Cairo,4/27/2014 14:04
+G6119,3G,1st Gathering,Cairo,4/27/2014 14:04
+\N,2G,Obour,Cairo,4/27/2014 14:04
+G6147,3G,1st Gathering,Cairo,4/27/2014 14:04
+GK2470,3G,Nasr City,Cairo,4/27/2014 14:04
+GK2500,3G,1st Gathering,Cairo,4/27/2014 14:04
+GK2502,3G,1st Gathering,Cairo,4/27/2014 14:04
+GK2503,3G,1st Gathering,Cairo,4/27/2014 14:04
+GK2514,3G,1st Gathering,Cairo,4/27/2014 14:04
+GK2547,3G,5th Gathering and Kattamya,Cairo,4/27/2014 14:04
+3858,2G,Asyut_Rural,Upper Egypt,4/27/2014 14:04
+3861,2G,Minia_Rural,Upper Egypt,4/27/2014 14:04
+3861,2G,Minia_Rural,Upper Egypt,4/27/2014 14:04
+3876,2G,Bani Sweif_Rural,Upper Egypt,4/27/2014 14:04
+3879,2G,Minia_Rural,Upper Egypt,4/27/2014 14:04
+3884,2G,Aswan_Rural,Upper Egypt,4/27/2014 14:04
+3893,2G,Aswan_Rural,Upper Egypt,4/27/2014 14:04
+G0690,3G,Imbaba,Giza,4/27/2014 14:04
+G0755,3G,October,Giza,4/27/2014 14:04
+G0793,3G,October,Giza,4/27/2014 14:04
+G1221,3G,Mouhandseen,Giza,4/27/2014 14:04
+G1238,3G,Giza Outskirts,Giza,4/27/2014 14:04
+G1283,3G,October,Giza,4/27/2014 14:04
+G1624,3G,Mouhandseen,Giza,4/27/2014 14:04
+G1624,3G,Mouhandseen,Giza,4/27/2014 14:04
+G1629,3G,Imbaba,Giza,4/27/2014 14:04
+G1638,3G,Imbaba,Giza,4/27/2014 14:04
+G1639,3G,Imbaba,Giza,4/27/2014 14:04
+G1667,3G,Haram,Giza,4/27/2014 14:04
+G1675,3G,Mouhandseen,Giza,4/27/2014 14:04
+G1741,3G,Haram,Giza,4/27/2014 14:04
+C1902,2G,Matarya,Cairo,4/27/2014 14:04
+C1945,2G,Moukattam,Cairo,4/27/2014 14:04
+C1955,2G,Alsalam,Cairo,4/27/2014 14:04
+C1984,2G,Matarya,Cairo,4/27/2014 14:04
+C1989,2G,Abbassyia,Cairo,4/27/2014 14:04
+C1998,2G,10th of Ramadan,Cairo,4/27/2014 14:04
+\N,2G,10th of Ramadan,Cairo,4/27/2014 14:04
+C6191,2G,Obour,Cairo,4/27/2014 14:04
+CK2054,2G,Zamalek,Cairo,4/27/2014 14:04
+CK2132,2G,Maadi,Cairo,4/27/2014 14:04
+\N,2G,Down Town and Manyal,Cairo,4/27/2014 14:04
+CK2196,2G,Helwan,Cairo,4/27/2014 14:04
+CK2314,2G,5th Gathering and Kattamya,Cairo,4/27/2014 14:04
+CK2375,2G,Nasr City,Cairo,4/27/2014 14:04
+CK2516,2G,Maadi,Cairo,4/27/2014 14:04
+\N,2G,Hadabah Wostah,Cairo,4/27/2014 14:04
+\N,2G,Hadabah Wostah,Cairo,4/27/2014 14:04
+CK3138,2G,Helwan,Cairo,4/27/2014 14:04
+CK3256,2G,1st Gathering,Cairo,4/27/2014 14:04
+CK3261,2G,1st Gathering,Cairo,4/27/2014 14:04
+CK3506,2G,Matarya,Cairo,4/27/2014 14:04
+G1743,3G,Mouhandseen,Giza,4/27/2014 14:04
+G2999,3G,Zayed,Giza,4/27/2014 14:04
+G4391,3G,Alex Desert Road,Giza,4/27/2014 14:04
+G4418,3G,Zayed,Giza,4/27/2014 14:04
+2005,2G,Alex_1,Alexandria,4/27/2014 14:04
+2010,2G,Alex_1,Alexandria,4/27/2014 14:04
+\N,2G,Alex_1,Alexandria,4/27/2014 14:04
+2029,2G,Alex Desert Road,Alexandria,4/27/2014 14:04
+2082,2G,Alex_3,Alexandria,4/27/2014 14:04
+2165,2G,Alex_2,Alexandria,4/27/2014 14:04
+2169,2G,Alex_2,Alexandria,4/27/2014 14:04
+2194,2G,Alex_3,Alexandria,4/27/2014 14:04
+2224,2G,Alex_3,Alexandria,4/27/2014 14:04
+2303,2G,North Coast East,Alexandria,4/27/2014 14:04
+\N,2G,Alex_3,Alexandria,4/27/2014 14:04
+2373,2G,North Coast West,Alexandria,4/27/2014 14:04
+2381,2G,North Coast West,Alexandria,4/27/2014 14:04
+\N,2G,North Coast West,Alexandria,4/27/2014 14:04
+\N,2G,North Coast West,Alexandria,4/27/2014 14:04
+2425,2G,North Coast West,Alexandria,4/27/2014 14:04
+2433,2G,Alex_1,Alexandria,4/27/2014 14:04
+2460,2G,Alex Desert Road,Alexandria,4/27/2014 14:04
+2636,2G,Alex_2,Alexandria,4/27/2014 14:04
+2679,2G,Alex_1,Alexandria,4/27/2014 14:04
+G6454,3G,Bani Sweif_Rural,Upper Egypt,4/27/2014 14:04
+\N,2G,Asyut_Rural,Upper Egypt,4/27/2014 14:04
+G6483,3G,Aswan_Rural,Upper Egypt,4/27/2014 14:04
+GU3949,3G,Fayoum_Rural,Upper Egypt,4/27/2014 14:04
+GU3999,3G,Fayoum,Upper Egypt,4/27/2014 14:04
+\N,2G,Bani Sweif_Rural,Upper Egypt,4/27/2014 14:04
+GU4333,3G,Minya,Upper Egypt,4/27/2014 14:04
+\N,2G,Souhag_Rural,Upper Egypt,4/27/2014 14:04
+GU4552,3G,Qena_Rural,Upper Egypt,4/27/2014 14:04
+GU4565,3G,Luxor_Rural,Upper Egypt,4/27/2014 14:04
+GU4606,3G,Minya,Upper Egypt,4/27/2014 14:04
+\N,2G,Bani Sweif_Rural,Upper Egypt,4/27/2014 14:04
+GU4625,3G,Bani Sweif_Rural,Upper Egypt,4/27/2014 14:04
+\N,2G,Aswan,Upper Egypt,4/27/2014 14:04
+GU4670,3G,Bani Sweif_Rural,Upper Egypt,4/27/2014 14:04
+\N,2G,Fayoum_Rural,Upper Egypt,4/27/2014 14:04
+\N,2G,Matarya,Cairo,4/27/2014 14:04
+CK3801,2G,Obour,Cairo,4/27/2014 14:04
+5957,2G,Kafr El Sheikh_Rural,Delta,4/27/2014 14:04
+6303,2G,Beheira_Rural,Delta,4/27/2014 14:04
+\N,2G,Qalyubiya_Rural,Delta,4/27/2014 14:04
+C1513,2G,Qalyubiya_Rural,Delta,4/27/2014 14:04
+C4003,2G,Zagazig,Delta,4/27/2014 14:04
+C4553,2G,Monufeyya_Rural,Delta,4/27/2014 14:04
+C4607,2G,Damietta_Rural,Delta,4/27/2014 14:04
+C4609,2G,Monufeyya_Rural,Delta,4/27/2014 14:04
+C4611,2G,Beheira_Rural,Delta,4/27/2014 14:04
+C4619,2G,Beheira_Rural,Delta,4/27/2014 14:04
+C4655,2G,Dakahleyya_Rural,Delta,4/27/2014 14:04
+G1763,3G,Heliopolis and Nozha,Cairo,4/27/2014 14:04
+G1766,3G,Heliopolis and Nozha,Cairo,4/27/2014 14:04
+G1783,3G,Moukattam,Cairo,4/27/2014 14:04
+G1787,3G,Nasr City,Cairo,4/27/2014 14:04
+G1790,3G,Nasr City,Cairo,4/27/2014 14:04
+G1801,3G,Matarya,Cairo,4/27/2014 14:04
+G1822,3G,Heliopolis and Nozha,Cairo,4/27/2014 14:04
+C1860,2G,Shubra El-Khima,Cairo,4/27/2014 14:04
+C1885,2G,5th Gathering and Kattamya,Cairo,4/27/2014 14:04
+C1992,2G,Obour,Cairo,4/27/2014 14:04
+C6108,2G,Matarya,Cairo,4/27/2014 14:04
+C6191,2G,Obour,Cairo,4/27/2014 14:04
+\N,2G,Nasr City,Cairo,4/27/2014 14:04
+CK0506,2G,Dar El Salam,Cairo,4/27/2014 14:04
+CK2133,2G,Dar El Salam,Cairo,4/27/2014 14:04
+CK2308,2G,Moukattam,Cairo,4/27/2014 14:04
+CK2326,2G,5th Gathering and Kattamya,Cairo,4/27/2014 14:04
+CK2436,2G,Shubra El-Khima,Cairo,4/27/2014 14:04
+\N,2G,Hadabah Wostah,Cairo,4/27/2014 14:04
+CK3218,2G,Obour,Cairo,4/27/2014 14:04
+CK3321,2G,Matarya,Cairo,4/27/2014 14:04
+G0002,3G,Zamalek,Cairo,4/27/2014 14:04
+5948,2G,Kafr El Sheikh_Rural,Delta,4/27/2014 14:04
+6304,2G,Beheira_Rural,Delta,4/27/2014 14:04
+6325,2G,Sharkeyya_Rural,Delta,4/27/2014 14:04
+6356,2G,Qalyubiya_Rural,Delta,4/27/2014 14:04
+C4141,2G,Mansoura,Delta,4/27/2014 14:04
+G4440,3G,North Coast West,Alexandria,4/27/2014 14:04
+G4463,3G,Alex Desert Road,Alexandria,4/27/2014 14:04
+\N,2G,Alex_1,Alexandria,4/27/2014 14:04
+\N,2G,Alex Desert Road,Alexandria,4/27/2014 14:04
+406,2G,Down Town and Manyal,Cairo,4/27/2014 14:04
+427,2G,Down Town and Manyal,Cairo,4/27/2014 14:04
+434,2G,Shubra El-Khima,Cairo,4/27/2014 14:04
+453,2G,Shubra El-Khima,Cairo,4/27/2014 14:04
+\N,2G,Down Town and Manyal,Cairo,4/27/2014 14:04
+642,2G,Maadi,Cairo,4/27/2014 14:04
+735,2G,Down Town and Manyal,Cairo,4/27/2014 14:04
+823,2G,Nasr City,Cairo,4/27/2014 14:04
+936,2G,Heliopolis and Nozha,Cairo,4/27/2014 14:04
+954,2G,Heliopolis and Nozha,Cairo,4/27/2014 14:04
+1041,2G,Heliopolis and Nozha,Cairo,4/27/2014 14:04
+1050,2G,Nasr City,Cairo,4/27/2014 14:04
+1234,2G,Down Town and Manyal,Cairo,4/27/2014 14:04
+1269,2G,Helwan,Cairo,4/27/2014 14:04
+\N,2G,Zaitoun and Qubba,Cairo,4/27/2014 14:04
+G1833,3G,Shubra El-Khima,Cairo,4/27/2014 14:04
+G1867,3G,Shubra El-Khima,Cairo,4/27/2014 14:04
+G1875,3G,5th Gathering and Kattamya,Cairo,4/27/2014 14:04
+G1930,3G,Shubra El-Khima,Cairo,4/27/2014 14:04
+G1939,3G,Obour,Cairo,4/27/2014 14:04
+G1981,3G,Nasr City,Cairo,4/27/2014 14:04
+G1989,3G,Abbassyia,Cairo,4/27/2014 14:04
+G1992,3G,Obour,Cairo,4/27/2014 14:04
+G1999,3G,Heliopolis and Nozha,Cairo,4/27/2014 14:04
+\N,2G,Shorouk and Badr,Cairo,4/27/2014 14:04
+G6143,3G,1st Gathering,Cairo,4/27/2014 14:04
+G6147,3G,1st Gathering,Cairo,4/27/2014 14:04
+GK2462,3G,Nasr City,Cairo,4/27/2014 14:04
+GK2479,3G,1st Gathering,Cairo,4/27/2014 14:04
+GK2489,3G,Obour,Cairo,4/27/2014 14:04
+GK2494,3G,1st Gathering,Cairo,4/27/2014 14:04
+\N,2G,1st Gathering,Cairo,4/27/2014 14:04
+GK2526,3G,5th Gathering and Kattamya,Cairo,4/27/2014 14:04
+GK2543,3G,5th Gathering and Kattamya,Cairo,4/27/2014 14:04
+GK2594,3G,Matarya,Cairo,4/27/2014 14:04
+C4500,2G,Qalyubiya_Rural,Delta,4/27/2014 14:04
+C4640,2G,Sharkeyya_Rural,Delta,4/27/2014 14:04
+C4668,2G,Damietta_Rural,Delta,4/27/2014 14:04
+C4708,2G,Kafr El Sheikh_Rural,Delta,4/27/2014 14:04
+C4744,2G,Mansoura,Delta,4/27/2014 14:04
+G1766,3G,Heliopolis and Nozha,Cairo,4/27/2014 14:04
+G1801,3G,Matarya,Cairo,4/27/2014 14:04
+G1808,3G,Heliopolis and Nozha,Cairo,4/27/2014 14:04
+G1824,3G,Obour,Cairo,4/27/2014 14:04
+G1849,3G,Zaitoun and Qubba,Cairo,4/27/2014 14:04
+G1874,3G,Hadabah Wostah,Cairo,4/27/2014 14:04
+G1884,3G,1st Gathering,Cairo,4/27/2014 14:04
+G1887,3G,Obour,Cairo,4/27/2014 14:04
+\N,2G,Matarya,Cairo,4/27/2014 14:04
+G1915,3G,Shubra El-Khima,Cairo,4/27/2014 14:04
+G1925,3G,Matarya,Cairo,4/27/2014 14:04
+G1939,3G,Obour,Cairo,4/27/2014 14:04
+G1945,3G,Moukattam,Cairo,4/27/2014 14:04
+G1974,3G,Ain Shams,Cairo,4/27/2014 14:04
+G1998,3G,10th of Ramadan,Cairo,4/27/2014 14:04
+\N,2G,Shorouk and Badr,Cairo,4/27/2014 14:04
+G0049,3G,Heliopolis and Nozha,Cairo,4/27/2014 14:04
+G0088,3G,Obour,Cairo,4/27/2014 14:04
+G0118,3G,Heliopolis and Nozha,Cairo,4/27/2014 14:04
+G0136,3G,Maadi,Cairo,4/27/2014 14:04
+G0199,3G,Heliopolis and Nozha,Cairo,4/27/2014 14:04
+G0218,3G,Down Town and Manyal,Cairo,4/27/2014 14:04
+G0257,3G,Nasr City,Cairo,4/27/2014 14:04
+G0297,3G,Shubra El-Khima,Cairo,4/27/2014 14:04
+C0129,2G,Dar El Salam,Cairo,4/27/2014 14:04
+C0141,2G,Zaitoun and Qubba,Cairo,4/27/2014 14:04
+C0147,2G,Shubra,Cairo,4/27/2014 14:04
+C0155,2G,Down Town and Manyal,Cairo,4/27/2014 14:04
+C0173,2G,Shubra El-Khima,Cairo,4/27/2014 14:04
+C0294,2G,Down Town and Manyal,Cairo,4/27/2014 14:04
+C0608,2G,Down Town and Manyal,Cairo,4/27/2014 14:04
+C1252,2G,Helwan,Cairo,4/27/2014 14:04
+C1252,2G,Helwan,Cairo,4/27/2014 14:04
+C1539,2G,Alsalam,Cairo,4/27/2014 14:04
+C1554,2G,Shubra El-Khima,Cairo,4/27/2014 14:04
+C1560,2G,Nasr City,Cairo,4/27/2014 14:04
+\N,2G,Down Town and Manyal,Cairo,4/27/2014 14:04
+\N,2G,Obour,Cairo,4/27/2014 14:04
+GK3235,3G,1st Gathering,Cairo,4/27/2014 14:04
+\N,2G,Shubra El-Khima,Cairo,4/27/2014 14:04
+\N,2G,Shubra El-Khima,Cairo,4/27/2014 14:04
+\N,2G,10th of Ramadan,Cairo,4/27/2014 14:04
