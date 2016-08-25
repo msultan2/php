@@ -1,0 +1,12 @@
+select AL.CRQ ,count(SA.SiteID) from
+(select SA.Physical_Site_ID SiteID from `Sites Area` SA union select SiteID from `One Cell DB` )SA 
+,`Activity Log` AL  where AL.Sub_Region ='Haram' and SA.SiteID = AL.SiteID
+group by  CRQ 
+
+
+
+
+
+select AL.CRQ ,count(AL.SiteID) from `Activity Log` AL  where AL.Sub_Region ='Airport' 
+and date_format(`Activity Date`,'%Y-%m-%d')='2015-10-28'
+group by  AL.CRQ

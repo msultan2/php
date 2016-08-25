@@ -1,0 +1,20 @@
+/*$result = mysqli_query($con,"select * from `Employee Details` where Department like '%$Dep%' order by Employee_ID");
+					while($row = mysqli_fetch_array($result))
+					{
+						echo "<tr>";
+						echo "<td>"; echo $row['Employee_ID']; echo "</td>";
+						echo "<td>"; echo $row['Full_Name']; echo "</td>";
+						echo "<td>"; echo $row['Sub_Department']; echo "</td>";
+						echo "<td>"; echo $row['Job']; echo "</td>";
+						echo "<td>"; echo $row['Position']; echo "</td>";
+						echo "<td>"; echo $row['Supervisor_ID']; echo "</td>";
+						echo "<td>"; echo $row['Supervisor_Name']; echo "</td>";
+						echo "<td>"; echo $row['Location']; echo "</td>";
+						echo "<td>"; echo $row['Address_Line1']; echo "</td>";
+						echo "<td>"; echo $row['Address_Line2']; echo "</td>";
+						echo "<td>"; echo $row['Email']; echo "</td>";
+						echo "<td>"; echo $row['UserName']; echo "</td>";
+						echo "<td>"; echo $row['Mobile']; echo "</td>";
+						echo "<td>"; echo $row['Token Type']; echo "</td>";
+						echo "</tr>";
+					}*/

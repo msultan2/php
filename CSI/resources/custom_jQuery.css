@@ -1,0 +1,497 @@
+    /*----[Simple tabs]----*/
+ul.tabs,
+ul.tabs2 {
+	height: 25px;
+	width: 100%;
+}
+ul.tabs li,
+ul.tabs2 li {
+	float: left;
+	display: inline;	
+	margin-right: 2px;
+	height: 25px;
+	padding: 0px !important;
+}
+ul.tabs li.first-tab,
+ul.tabs2 li.first-tab {
+	margin: 0 2px 0 5px;
+}
+ul.tabs li a,
+ul.tabs2 li a {
+	padding-left: 10px;
+	display: block;
+	float: left;
+	text-decoration: none;
+	position: relative;
+}
+ul.tabs li a span,
+ul.tabs2 li a span {
+	padding-right: 10px;
+	font-weight: bold;
+	display: block;
+	cursor: pointer;
+	float: left;
+	white-space: nowrap /* White space nowrap added for larger text sizes in IE*/
+}
+ul.tabs li a:link,
+ul.tabs li a:visited,
+ul.tabs li a:hover,
+ul.tabs li a:active,
+ul.tabs2 li a:link,
+ul.tabs2 li a:visited,
+ul.tabs2 li a:hover,
+ul.tabs2 li a:active  {
+    background: #e8e7e7 url(../img/tabs/tab_inactive_left.gif) left top no-repeat;
+    color: #525252;
+    top: 2px;
+}
+ul.tabs li a span,
+ul.tabs2 li a span {
+    background: #e8e7e7 url(../img/tabs/tab_inactive_right.gif) right top no-repeat;
+    height: 21px;
+    padding-top: 4px;
+}
+ul.tabs li a:hover,
+ul.tabs2 li a:hover {
+    background: #fff url(../img/tabs/tab_active_left.gif) left top no-repeat;
+}
+ul.tabs li a:hover span,
+ul.tabs2 li a:hover span {
+    background: #fff url(../img/tabs/tab_active_right.gif) right top no-repeat;
+    height: 21px;
+    padding-top: 4px;
+}
+ul.tabs li.active a:link,
+ul.tabs li.active a:visited,
+ul.tabs li.active a:hover,
+ul.tabs li.active a:active,
+ul.tabs2 li.active a:link,
+ul.tabs2 li.active a:visited,
+ul.tabs2 li.active a:hover,
+ul.tabs2 li.active a:active {
+    background: #fff url(../img/tabs/tab_active_left.gif) left top no-repeat;
+    top: 2px;
+}
+ul.tabs li.active a span,
+ul.tabs2 li.active a span {
+    background: #fff url(../img/tabs/tab_active_right.gif) right top no-repeat;
+    height: 21px;
+    padding-top: 4px;
+    cursor: default;
+}
+
+    /*----[Slideshow]----*/
+.images {
+	border: none;
+	position: relative;	
+	width: 340px;
+	height: 300px;
+	float: left;	
+	cursor: pointer;
+	display: block;
+	clear: both;
+	float: left;
+	margin-top: -13px;
+}
+.slide-show-image {
+    margin-top: 0;
+    cursor: default;
+}
+    
+    /*----[Slider in tabs]----*/
+.tabbed-images {
+    position: relative;
+    top: 35px;
+    height: 20em;
+    width: 340px;
+}
+
+    /*----[Basic slider/cycle with external controls]----*/
+	/* Start of banner carousel asdded by Eman on 13.4.2010
+	-------------------------------------------------------*/
+.bannernav{display:block; float:right; margin:5px 0 0; padding:2px 0 2px 5px; position:absolute; right:73px; top:-20px; z-index:80; background: #FBFBFB; height: 16px;}
+.bannernav a{ width: 8px; height: 8px; float: left; margin: 3px 3px 3px 0; background: url(../img/tabs/navigator.png) 0 0 no-repeat; display: block; font-size: 0; line-height: 0; padding: 0;}
+.bannernav a:hover{ background-position: 0 -8px;}
+.bannernav a.activeSlide{ background-position: 0 -16px;}
+img.bannerprevious, img.bannernext{ display: block; float: right; padding: 5px 0 0 0;}
+img.bannerclose{ display: block; float: right; padding: 5px 0 0 0; margin-left:14px;}
+.bannerimages{ border: none; position: relative; width: 950px; height: 277px; float: left; cursor: pointer; display: block; clear: both; float: left; margin-top: -20px;}
+.nextprev{ position:absolute; right:5px; top:-20px; z-index:10000;}
+.openbanner{display:inline-block !important; float:right; position:relative; right:20px; top:-10px;}
+
+	/* End of banner carousel asdded by Eman on 13.4.2010
+	-------------------------------------------------------*/
+
+.nav,
+.nav2,
+.nav3,
+.nav4,
+.nav5,
+.nav6,
+.nav61,
+.nav62,
+.nav63,
+.nav64,
+.nav65,
+.nav66,
+.navpi,
+.navpg,
+.navpl {
+    float: right;
+    display: block;
+    margin: 5px 0 0 0;
+    padding: 2px 0 2px 5px;
+}
+.nav2,
+.nav3,
+.nav4,
+.nav5,
+.nav6,
+.nav61,
+.nav62,
+.nav63,
+.nav64,
+.nav65,
+.nav66 {
+    border-left: 1px solid #e8e8e8;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    background: #fafafa;
+}
+.nav a,
+.nav2 a,
+.nav3 a,
+.nav4 a,
+.nav5 a,
+.nav6 a,
+.nav61 a,
+.nav62 a,
+.nav63 a,
+.nav64 a,
+.nav65 a,
+.nav66 a,
+.navpi a,
+.navpg a,
+.navpl a {
+	width: 8px;
+	height: 8px;
+	float: left;
+	margin: 3px 3px 3px 0;
+	background: url(../img/tabs/navigator.png) 0 0 no-repeat;
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	padding: 0;
+	color: transparent !important;
+}
+.nav a:hover,
+.nav2 a:hover,
+.nav3 a:hover,
+.nav4 a:hover,
+.nav5 a:hover,
+.nav6 a:hover,
+.nav61 a:hover,
+.nav62 a:hover,
+.nav63 a:hover,
+.nav64 a:hover,
+.nav65 a:hover,
+.nav66 a:hover,
+.navpi a:hover,
+.navpg a:hover,
+.navpl a:hover {
+	background-position: 0 -8px;      
+}
+.nav a.activeSlide,
+.nav2 a.activeSlide,
+.nav3 a.activeSlide,
+.nav4 a.activeSlide,
+.nav5 a.activeSlide,
+.nav6 a.activeSlide,
+.nav61 a.activeSlide,
+.nav62 a.activeSlide,
+.nav63 a.activeSlide,
+.nav64 a.activeSlide,
+.nav65 a.activeSlide,
+.nav66 a.activeSlide,
+.navpi a.activeSlide,
+.navpg a.activeSlide,
+.navpl a.activeSlide {
+	background-position: 0 -16px;     
+}
+
+img.previous,
+img.next,
+img.previous2,
+img.next2,
+img.previous3,
+img.next3,
+img.previous4,
+img.next4,
+img.previous5,
+img.next5,
+img.previous6,
+img.next6 {
+    display: block;
+    float: right;
+    padding: 5px 0 0 0;
+}
+.products img.previous4,
+.products img.next4,
+.products img.previous5,
+.products img.next5,
+.products img.previous6,
+.products img.next6 {
+    padding: 5px 0 0 0;
+}
+a.forward,
+a.backward {
+    cursor: pointer;
+}
+.phones img.previous,
+.phones img.next,
+.nav,
+.navpi,
+.navpg,
+.navpl {
+    position: relative;
+    top: -35px;
+}
+
+	/*----[Carousel]----*/
+.three-image-carousel,
+.three-image-carousel2,
+.tabbed-images-4,
+.tabbed-images-5,
+.tabbed-images-6 {
+    position: relative;
+    top: 25px;
+    width: 340px;
+    height: 250px;
+}
+.three-image-carousel,
+.three-image-carousel2 {
+    clear: both;
+    top: 0;
+}
+.tabbed-images-4,
+.tabbed-images-5,
+.tabbed-images-6 {
+    top: 30px;
+}
+.carousel-show-image {
+    margin: 30px 0 0 0;
+}
+.opera .carousel-show-image {
+	margin-top:10px;
+}
+.carousel-image {
+    float: left;
+    width: 110px;
+    text-align: center;
+}
+.carousel-image img {
+    padding-bottom: 7px;
+    display: block;
+    margin: 0 auto;
+}
+.carousel-image a,
+.carousel-image-last a {
+    text-decoration: none !important;
+}
+.tab-container {
+    border: 1px solid #dbdbdb;
+    margin-left: -5px;
+    width: 340px;
+}
+.perfect-match .tab-container {
+    width: 698px;
+    margin-left: -2px !important;
+} 
+.perfect-match .tab-container .carousel-image{
+    width: 113px;
+} 
+.products .tab-container {
+    height: 225px;
+}   
+.tab-container .first-image {
+    margin-left: 4px;
+}
+.tab-container img.next2,
+.tab-container img.next3 {
+   margin-right: 5px;
+} 
+
+    /*----[Bubble coda]----*/
+.bubbleInfo {
+    position: relative;
+}
+.bubbleInfo a,
+.bubbleInfo .trigger a {
+    text-decoration: none;
+    display: block;
+}
+.popup {
+    position: absolute;
+    display: none; /* keeps the popup hidden if no JS available */
+    width: 118px;
+    top:0 !important;
+}
+.popup p.app {
+    margin-left: 0;
+}
+.popup p.popup-text {
+    margin-top: 5px;
+}
+.popup .popup-top {
+    height: 4px;
+    width: 118px;
+    position: relative;
+    background: #fff url(../img/popup/carousel_popup_top.gif) left top no-repeat;
+    z-index: 2000;
+}
+.popup .popup-content {
+    width: 110px;
+    position: relative;
+    padding: 0 7px 10px 1px;
+    background: #fff url(../img/popup/carousel_popup_content.gif) left bottom no-repeat;
+    z-index: 2000;
+    text-align: center;
+} 
+.popup p.popup-button {
+    padding: 10px 0;
+    margin-left: 5px;
+}
+.apps-downloads .popup,
+.apps-downloads-2 .popup {
+    width: 163px;
+}  
+.apps-downloads .popup .popup-top,
+.apps-downloads-2 .popup .popup-top {
+    background: #fff url(../img/popup/popup_top.gif) left top no-repeat;
+    width: 163px;
+    height: 15px;
+} 
+.apps-downloads .popup .popup-content,
+.apps-downloads-2 .popup .popup-content {
+    width: 146px;
+    padding: 0 12px 10px 5px;
+    background: #fff url(../img/popup/popup_content.gif) left bottom no-repeat;
+    text-align: center;
+    z-index: 1000;
+    position: relative;
+    margin-top: -5px;
+    line-height: 1.2em;
+}
+.apps-downloads .popup .popup-content .buttonDark,
+.apps-downloads-2 .popup .popup-content .buttonDark {
+    display: block;
+    margin: 10px 0 0 25px;
+} 
+.apps-downloads .popup .popup-content img.rating {
+    display: inline;
+    margin: 2px 0 0 5px;
+}
+.apps-downloads .popup .popup-content p.popup-small {
+    border-top: 1px solid #ededed;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+ 	/* Start hero banner CSS Added By Samir*/
+.nav7 {
+    float: right;
+    display: block;
+    margin: 5px 0 0 0;
+    padding: 2px 0 2px 5px;
+    border-left: 1px solid #e8e8e8;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    background: #fafafa;	
+}
+.nav7 a {
+	width: 8px;
+	height: 8px;
+	float: left;
+	margin: 3px 3px 3px 0;
+	background: url(../img/tabs/navigator.png) 0 0 no-repeat;
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	padding: 0;
+}
+.nav7 a:hover {
+	background-position: 0 -8px;      
+}
+.nav7 a.activeSlide  {
+	background-position: 0 -16px;     
+}
+img.next7{
+    display: block;
+    float: right;
+    padding: 5px 0 0 0;
+}
+.heroBanner img.previous7,
+.heroBanner img.next7,
+.nav7{
+    position: relative;
+    top: -293px;
+    left:-37px;
+    z-index:8;
+	margin-bottom:-24px;	
+}
+.heroBannerimages {
+	border: none;
+	position: absolute;	
+	width: 952px;
+	height: 277px;
+	float: left;	
+	cursor: pointer;
+	display: block;
+	clear: both;
+	padding:0 0 16px;
+	top:123px;
+}
+.heroBanner-show-image {
+    margin-top: 0;
+    cursor: default;
+}
+	/* End hero banner CSS*/
+.sixItemsPromotions .nav,.sixItemsPromotions .next2,.sixItemsPromotions .previous2{
+	top:0px !important;
+    position: static;
+    display: inline-block;
+    float: right;
+}
+.about img.previous2, .about img.next2, .about .nav{
+	position:relative;
+	top:-42px;
+}
+.safari .nav a, .chrome .nav a,
+.safari .nav2 a, .chrome .nav2 a,
+.safari .nav3 a, .chrome .nav3 a,
+.safari .nav4 a, .chrome .nav4 a,
+.safari .nav5 a, .chrome .nav5 a,
+.safari .nav6 a, .chrome .nav6 a,
+.safari .nav61 a, .chrome .nav61 a,
+.safari .nav62 a, .chrome .nav62 a,
+.safari .nav63 a, .chrome .nav63 a,
+.safari .nav64 a, .chrome .nav64 a,
+.safari .nav65 a, .chrome .nav65 a,
+.safari .nav66 a, .chrome .nav66 a,
+.safari .navpi a, .chrome .navpi a,
+.safari .navpg a, .chrome .navpg a,
+.safari .navpl a, .chrome .navpl a {color: transparent !important;}
+.privacyDetails .tab-container{ margin-left:-2px !important; width:524px !important;}
+
+/* ------------ jQuery.Rating Plugin CSS - http://www.fyneworks.com/jquery/star-rating/ ------------ */
+div.rating-cancel,div.star-rating{float:left;width:10px;height:10px;text-indent:-999em;cursor:pointer;display:block;background:transparent;overflow:hidden}
+/*div.rating-cancel,div.rating-cancel a{background:url(delete.gif) no-repeat 0 -16px}*/
+div.star-rating,div.star-rating a{background:url(../img/ratings/star.gif) no-repeat 0 0px}
+div.rating-cancel a,div.star-rating a{display:block;width:16px;height:100%;background-position:0 0px;border:0}
+div.star-rating-on a{background-position:0 -10px!important}
+div.star-rating-hover a{background-position:0 -10px} 
+	/* Read Only CSS */
+div.star-rating-readonly a{cursor:default !important;}
+	/* Partial Star CSS */
+div.star-rating{background:transparent!important;overflow:hidden!important;}
+/* --------------------------- End Of jQuery.Rating Plugin CSS --------------------------- */

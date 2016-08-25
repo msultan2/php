@@ -1,0 +1,181 @@
+<?php 
+//echo $_GET['CRQ'];
+//echo "eefe";
+//recieve params and create DB connection and exec sql query 
+//and get the array result  and forward it to the out put of radio activity 
+
+
+//$radioActivityAllowed = true;
+//$transmissionActivityAllowed =true;
+
+//SiteIDs=&CRQ=cRQ&StartTime=13&EndTime=14&ActivityType=NodeLevel
+$SiteIDs=$_GET['SiteIDs'];
+$CRQ=$_GET['CRQ'];
+$TypeofActivity= $_GET['ActivityType'];
+$DownTimeHrs=$_GET['EndTime']-$_GET['StartTime'];
+$BSCName=null;
+$TableArrayResult = array();
+$TotalImpactedSites=null;//DB
+$impactedAreasPercentage=null;//DB
+$AreasList=null;//DB
+
+
+
+
+$con=mysqli_connect("CNPVAS04","Reader","Reader","SOC");
+$conSP=mysqli_connect("CNPVAS04","Reader","Reader","SOC");
+// Check connection
+if (mysqli_connect_errno())
+{
+	echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}//BSS_Site hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhBSS_Node
+ $sqlCall="Call Data_Anlyzer('".$_GET['StartTime']."','".$_GET['EndTime']."','".$SiteIDs."','".$TypeofActivity."','".$CRQ."')";
+
+
+
+//$sqlCall="Call Data_Anlyzer ('3','9','1|5509|640','MW_Link','1234')";
+
+
+//rty1hhhhhhhh
+$SPresultCall = mysqli_query($conSP, $sqlCall);
+$rowCall = mysqli_fetch_assoc($SPresultCall);
+$tablename=  $rowCall['Table_Rand'];
+
+
+
+$sql = "select Affected.Sub_Region,Affected_Count,All_Count,round(Affected_Count*100/All_Count,2) `Area Impact %`
+from
+(select Sub_Region,count(*) Affected_Count from ".$tablename."
+group by Sub_Region) Affected,
+(select Sub_Region Sub_Region_Updated,count(*) All_Count from `One Cell DB`
+group by Sub_Region) All_
+where Affected.Sub_Region=All_.Sub_Region_Updated";
+
+$sql2="SELECT NE , count(*) as totalImpacted FROM `".$tablename."` group by NE";
+$sql3="SELECT round(sum(`Total_SPEECH_TRAFFIC`),3) as `Total_SPEECH_TRAFFIC` ,  round(sum(`DATA_MB`),3) as `DATA_MB`  FROM `".$tablename."`";	
+
+
+
+
+
+
+$result = $con->query($sql);
+
+if ($result->num_rows > 0) {
+	// output data of each row
+	while($row = $result->fetch_assoc()) {
+
+		//echo $row["Sub_Region"].$row["Affected_Count"].$row["All_Count"].$row["Area Impact %"];
+		//echo "name: " . $row["name"]. " - Name: " . $row["activity"]."<br>";
+		$Status=2;
+		if($row["Area Impact %"]>=2)
+		$Status=3;
+		if($row["Area Impact %"]<2)
+	    $Status=1;
+		
+		$question = array('ImpactedSites' => $row["Affected_Count"], 'TotalSitesperarea' =>$row["All_Count"],'AreaImpact' =>$row["Area Impact %"],'Status' => $Status); //init
+		
+		
+		$TableArrayResult[$row["Sub_Region"]] = $question;
+		
+		
+		
+		if(is_null($AreasList))
+			$AreasList="'".$row["Sub_Region"]."'";
+		else
+			$AreasList=$AreasList.",'".$row["Sub_Region"]."'";
+		
+		
+		
+		
+		
+		
+		if(is_null($impactedAreasPercentage))
+			$impactedAreasPercentage=$row["Area Impact %"];
+		else
+			$impactedAreasPercentage=$impactedAreasPercentage.",".$row["Area Impact %"];
+		
+		
+		
+	
+		
+		
+		
+		
+	}
+ } else {
+	//echo "0 results";
+}
+
+
+
+
+
+$result2 = $con->query($sql2);
+
+if ($result2->num_rows > 0) {
+	// output data of each row
+	while($row = $result2->fetch_assoc()) {
+
+		//echo $row["Sub_Region"].$row["Affected_Count"].$row["All_Count"].$row["Area Impact %"];
+		//echo "name: " . $row["name"]. " - Name: " . $row["activity"]."<br>";
+		
+
+		
+		
+		if(is_null($BSCName))
+			$BSCName="'".$row["NE"]."'";
+		else
+			$BSCName=$BSCName.",'".$row["NE"]."'";
+		
+		
+		
+		if(is_null($TotalImpactedSites))
+			$TotalImpactedSites=$row["totalImpacted"];
+		else
+			$TotalImpactedSites=$TotalImpactedSites.",".$row["totalImpacted"];
+		
+		
+		
+	}
+} else {
+	//echo "0 results";
+}
+
+
+
+$result3 = $con->query($sql3);
+
+if ($result3->num_rows > 0) {
+	// output data of each row
+	while($row = $result3->fetch_assoc()) {
+		
+		
+		//echo $row["Total_SPEECH_TRAFFIC"].$row["DATA_MB"];
+		 $TotalSpeechTrafficImpactedErlg=$row["Total_SPEECH_TRAFFIC"];//DB
+		 $TotalDataTrafficImpactedMB=$row["DATA_MB"];//DB
+		
+
+
+	}
+} else {
+	//echo "0 results";
+}
+
+$sqlDrop="Drop table ".$tablename;
+if ($con->query($sqlDrop) === TRUE) {
+//echo $tablename ;
+//echo "Record deleted successfully";
+} else {
+//echo "Error deleting record: " . $conn->error;
+}
+
+mysqli_close($con);
+mysqli_close($conSP);
+
+
+
+include 'header.html';
+include 'TXActivityOutputDesign.php';
+//include 'activity.php';
+include 'footer.html';

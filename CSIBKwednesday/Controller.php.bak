@@ -1,0 +1,61 @@
+<?php		
+include 'LDAPAuth.php';
+include 'ActivityAuthorization.php'; 
+$username =null;
+$password =null;
+session_start();
+
+	$radioActivityAllowed=$_SESSION["radioActivityAllowed"];
+	$transmissionActivityAllowed=$_SESSION["transmissionActivityAllowed"] ;
+	
+	include 'header.html';
+	//include 'general.php';
+	include 'activity.php';
+	include 'footer.html';
+	//echo "uuuuu"; 
+/*
+if(isset($_SESSION["authorized"]) ==true&&isset($_SESSION["radioActivityAllowed"])==true&&isset($_SESSION["transmissionActivityAllowed"])==true)
+{
+	$radioActivityAllowed=$_SESSION["radioActivityAllowed"];
+	$transmissionActivityAllowed=$_SESSION["transmissionActivityAllowed"] ;
+	
+	include 'header.html';
+	//include 'general.php';
+	include 'activity.php';
+	include 'footer.html';
+	//echo "uuuuu"; 
+	
+}else{
+	
+	if(isset($_POST['username'])&&isset($_POST['password'])){
+		$username =$_POST['username'];
+		$password =$_POST['password'];
+		
+	}
+	// control authintication and authorization and for ward to right activities
+	$LDAPAuth = new LDAPAuth($username,$password);
+	//remove ||true to activate authintication
+	if($LDAPAuth->Authinticated || true){
+		
+		$_SESSION["authorized"] =true;
+		$ActivityAuthorization= new ActivityAuthorization($username);
+		$radioActivityAllowed = $ActivityAuthorization->radioActivityAllowed;
+		$transmissionActivityAllowed = $ActivityAuthorization->transmissionActivityAllowed;
+		 $_SESSION["radioActivityAllowed"] =$radioActivityAllowed ;
+		 $_SESSION["transmissionActivityAllowed"] =$transmissionActivityAllowed;
+	
+		
+		include 'header.html';
+		//include 'general.php';
+		include 'activity.php';
+		include 'footer.html';
+	
+	
+	
+	}else{
+		include 'header.html';
+		include 'login.html';
+		include 'footer.html';
+		//redirect to loign page again
+	}
+}*/

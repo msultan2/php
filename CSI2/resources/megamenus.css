@@ -1,0 +1,1798 @@
+ul#menu li ul li div.subnav-wrap div.subnav h3 a,ul#menu li ul li div.subnav-wrap div.subnav p a{
+font-weight:bold !important;
+}
+
+ul#menu a span {
+
+top: 7px;
+
+position: relative;
+
+overflow: hidden;
+
+font-family: vodafoneRg;
+
+font-size: 22px;
+
+font-weight: normal;
+
+}
+
+ul#menu {
+    float: left;
+    display: inline;
+    width: 882px;
+    background-color: #e60000;
+    margin-left: -1px;
+    display: block;
+    border-radius: 3px;
+    height: 50px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+ul#menulogo {
+    float: left;
+    display: inline;
+    width: 72px;
+    margin-left: -1px;
+    display: block;
+    margin-top: 14px;
+}
+ul#menulogo li {
+    float: left;
+    text-align: center;
+    height: 58px;
+    margin-top: 1px;
+    font-size: 1.25em; /*-- 15px --*/
+    font-weight: bold;
+    display: block;
+}
+#rambous {
+    position: absolute;
+    top: -32px;
+    left: -681px;
+    z-index: -1;
+}
+ul#menu li {
+    float: left;
+    text-align: center;
+    height: 50px;
+    border-right: 1px solid #fff;
+    margin-top: 1px;
+    font-size: 1.25em; /*-- 15px --*/
+    font-weight: bold;
+    display: block;
+}
+ul#menu li ul li, ul#menu li ul li ul li {
+    font-size: 1em;
+}
+
+ul#menulogo li.logo img {
+    display: block;
+    float: left;
+    padding: 3px 7px;
+}
+
+ul#menu a:hover ul, ul#menu a:hover a:hover ul, ul#menu a:hover a:hover a:hover ul {
+    display: block;
+}
+
+
+
+ul#menu li:hover a {
+    color: #fff;
+}
+
+
+/*----[Search in menu bar]----*/
+
+
+
+
+.herospaceImage {
+    width: 780px;
+    height: 276px;
+    margin-right: 6px;
+    float: right;
+}
+
+
+#herospace {
+    width: 760px;
+    height: 300px;
+    margin-right: 8px;
+    float: right;
+    margin-bottom: 10px;
+    position:relative;
+} 
+.herospace{
+margin-top:10px !important;
+}
+.m-carousel {
+    /* VIP Case *******************************
+    position: relative;
+    ******************************************/
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+.m-carousel.m-left {
+    text-align: left;
+}
+.m-carousel.m-center {
+    text-align: center;
+}
+.m-carousel.m-fluid > .m-carousel-inner > * {
+    width: 100%;
+    height: 278px;
+    
+}
+.m-carousel.m-fluid.m-center > .m-carousel-inner > *:first-child {
+    margin-left: 0%;
+}
+.m-carousel.m-fluid-2 > .m-carousel-inner > * {
+    width: 50%;
+}
+.m-carousel.m-fluid-2.m-center > .m-carousel-inner > *:first-child {
+    margin-left: 25%;
+}
+.m-carousel.m-fluid-3 > .m-carousel-inner > * {
+    width: 33.333%;
+}
+.m-carousel.m-fluid-3.m-center > .m-carousel-inner > *:first-child {
+    margin-left: 33.333%;
+}
+.m-carousel.m-fluid-4 > .m-carousel-inner > * {
+    width: 25%;
+}
+.m-carousel.m-fluid-4.m-center > .m-carousel-inner > *:first-child {
+    margin-left: 37.5%;
+}
+.m-carousel.m-fluid-5 > .m-carousel-inner > * {
+    width: 20%;
+}
+.m-carousel.m-fluid-5.m-center > .m-carousel-inner > *:first-child {
+    margin-left: 40%;
+}
+.m-carousel.m-fluid-6 > .m-carousel-inner > * {
+    width: 16.667%;
+}
+.m-carousel.m-fluid-6.m-center > .m-carousel-inner > *:first-child {
+    margin-left: 41.667%;
+}
+.m-carousel  img {
+    -ms-interpolation-mode: bicubic;
+}
+
+.m-carousel-inner {
+    position: relative;
+    white-space: nowrap;
+    text-align: left;
+    /*  Removes  inline-block  gaps  due  to  whitespace  */
+    font-size: 0;
+    /*  Configure  animations  */
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -ms-transition-property: -ms-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+    /*  iOS  like  slide  timings  */
+    -webkit-transition-timing-function: cubic-bezier(0.33,  0.66,  0.66,  1);
+    -moz-transition-timing-function: cubic-bezier(0.33,  0.66,  0.66,  1);
+    -ms-transition-timing-function: cubic-bezier(0.33,  0.66,  0.66,  1);
+    -o-transition-timing-function: cubic-bezier(0.33,  0.66,  0.66,  1);
+    transition-timing-function: cubic-bezier(0.33,  0.66,  0.66,  1);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.m-carousel-inner > * {
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+    /*  We  must  reset  the  font-size  here  */
+    font-size: 16px;
+}
+.m-fluid > .m-carousel-inner > * {
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.m-center:not(.m-fluid)  >
+.m-carousel-inner {
+    display: inline-block;
+    margin-right: -20000px !important;
+    margin-left: 0 !important;
+}
+.m-center:not(.m-fluid)  >
+.m-carousel-inner > * {
+    position: relative;
+    left: -20000px;
+}
+.m-center:not(.m-fluid)  >
+.m-carousel-inner > *:first-child {
+    float: left;
+    margin-right: 20000px;
+    left: 0;
+}
+.m-center:not(.m-fluid)  >
+.m-carousel-inner > *:first-child:last-child {
+    margin-right: 0;
+}
+.m-center:not(.m-fluid)  >
+.m-carousel-inner > *:last-child {
+    margin-right: -30000px;
+}
+
+/*
+ Carousel control base styling
+ */
+
+.m-carousel-controls {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.m-carousel-controls a {
+    padding: 5px;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-drag: -moz-none;
+    user-drag: none;
+}
+
+/* Carousel controls: Bulleted */
+.m-carousel-bulleted a {
+    line-height: 0;
+    text-decoration: none;
+    text-indent: -999px;
+    overflow: hidden;
+    display: inline-block;
+    padding: 6px;
+    width: 0;
+    height: 0;
+    margin: 0 3px;
+    color: #333;
+    background-color: rgba(255,255,255,0.3);
+    -webkit-transition: background-color 0.1s ease-in;
+    -moz-transition: background-color 0.1s ease-in;
+    -o-transition: background-color 0.1s ease-in;
+    transition: background-color 0.1s ease-in;
+    -webkit-box-shadow: inset rgba(0,0,0,0.25) 0 1px 2px;
+    -moz-box-shadow: inset rgba(0,0,0,0.25) 0 1px 2px;
+    box-shadow: inset rgba(0,0,0,0.25) 0 1px 2px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.m-carousel-bulleted a:hover, .m-carousel-bulleted a:focus {
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.6);
+}
+.m-carousel-bulleted a.m-active {
+    background-color: #CE0000;
+    -webkit-box-shadow: #ccc 0 1px 2px;
+    -moz-box-shadow: #ccc 0 1px 2px;
+    box-shadow: #ccc 0 1px 2px;
+}
+
+/* Carousel controls: Pagination */
+.m-carousel-pagination {
+    padding-top: 10px;
+}
+.m-carousel-pagination a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px 10px;
+    margin: 1px 0;
+    color: #333;
+    background-color: rgba(255,255,255,0.3);
+    -webkit-transition: background-color 0.1s ease-in;
+    -moz-transition: background-color 0.1s ease-in;
+    -o-transition: background-color 0.1s ease-in;
+    transition: background-color 0.1s ease-in;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.m-carousel-pagination a:hover, .m-carousel-pagination a:focus {
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.6);
+}
+.m-carousel-pagination a.m-active {
+    background-color: rgba(255,255,255,1);
+}
+
+/* Carousel controls: HUD */
+.m-carousel-hud {
+    padding-top: 0;
+}
+.m-carousel-hud a {
+    z-index: 2;
+    opacity: 0;
+    display: block;
+    position: absolute;
+    top: 44%;
+    width: 15px;
+    height: 46px;
+    margin: -25px 0 0 0;
+    padding: 0;
+    text-decoration: none;
+    text-indent: -999px;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.8);
+    -webkit-transition: opacity 0.1s ease-in;
+    -moz-transition: opacity 0.1s ease-in;
+    -o-transition: opacity 0.1s ease-in;
+    transition: opacity 0.1s ease-in;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    background-position: -989px -1783px;
+}
+.m-carousel .m-carousel-hud a {
+    opacity: 1;
+}
+.m-carousel .m-carousel-hud a:hover, .m-carousel .m-carousel-hud a:focus {
+    opacity: 1;
+}
+.m-carousel-hud a:after {
+    
+    
+    font-size: 25px;
+    font-weight: bold;
+    text-indent: 0;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 47px;
+    height: 50px;
+    z-index: 9;
+}
+.m-carousel-hud .m-carousel-prev {
+    left: 14%;
+}
+.m-carousel-hud .m-carousel-next {
+    right: 4%;
+    background-position: -989px -1834px !important;
+}
+.m-carousel-hud .m-carousel-next:after {
+    left: auto;
+    right: 0;
+}
+
+/* extra bits */
+
+/* captions */
+.m-caption {
+    margin: 0;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+}
+
+/* scaled slides */
+.m-scaled .m-item {
+    opacity: 0.7;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    -ms-transform: scale(0.75);
+    -o-transform: scale(0.75);
+    transform: scale(0.75);
+    /* Configure animations */
+    /* (0.5s would match the transition length between each,
+     but fast swiping on a phone can result in odd timing.
+     Half-length durations for each transform is a reasonable
+     middle ground.) */
+    -webkit-transition: -webkit-transform cubic-bezier(0.33, 0.66, 0.66, 1) 0.25s, opacity ease-out 0.25s;
+    -moz-transition-timing-function: -moz-transform cubic-bezier(0.33, 0.66, 0.66, 1) 0.25s, opacity ease-out 0.25s;
+    -o-transition-timing-function: -o-transform cubic-bezier(0.33, 0.66, 0.66, 1) 0.25s, opacity ease-out 0.25s;
+    transition-timing-function: transform cubic-bezier(0.33, 0.66, 0.66, 1) 0.25s, opacity ease-out 0.25s;
+}
+.m-scaled .m-active {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+/* Default Themes/Sytles for Slider */
+
+.m-fluid .m-item {
+    margin-right: 20px;
+}
+
+/* Fluid Width Photo Carousel
+ * .m-carousel.m-fluid.m-carousel-photos
+ */
+
+.m-carousel-photos {
+    margin: 0 -10px;
+    padding: 0 10px;
+}
+
+.m-carousel-photos .m-item > img {
+    margin: 0;
+    padding: 0;
+    max-width: none;
+    width: 100%;
+    height: auto;
+    -webkit-box-shadow: rgba(0,0,0,0.5) 0 5px 10px;
+    -moz-box-shadow: rgba(0,0,0,0.5) 0 5px 10px;
+    -o-box-shadow: rgba(0,0,0,0.5) 0 5px 10px;
+    -ms-box-shadow: rgba(0,0,0,0.5) 0 5px 10px;
+    box-shadow: rgba(0,0,0,0.5) 0 5px 10px;
+}
+
+.m-carousel-photos .m-caption {
+    background: rgba(0,0,0,0.7);
+    bottom: 0;
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Inner Cards for Carousel */
+.m-card-dark, .m-card-light {
+    padding: 20px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: rgba(0,0,0,0.5) 0 5px 10px;
+    -moz-box-shadow: rgba(0,0,0,0.5) 0 5px 10px;
+    -o-box-shadow: rgba(0,0,0,0.5) 0 5px 10px;
+    -ms-box-shadow: rgba(0,0,0,0.5) 0 5px 10px;
+    box-shadow: rgba(0,0,0,0.5) 0 5px 10px;
+}
+.m-card-dark {
+    background: rgba(0,0,0,0.5);
+    color: #FFF;
+}
+.m-card-light {
+    background: rgba(255,255,255,0.9);
+    color: #000;
+}
+.m-card-dark .m-caption, .m-card-light .m-caption {
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+
+.m-fade-out {
+    -webkit-mask-image: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,
+    rgba(0,0,0,1) 5%, rgba(0,0,0,1) 95%, rgba(0,0,0,0) 100%);
+}
+.m-item {
+    top: 0px;
+    left: 800px;
+}
+.m-item_Container {
+    width: 100%;
+    height: 276px;
+    display: block;
+    position: relative;
+}
+.TxtArea {
+    color: #fff;
+    font-size: 20px;
+    width: 350px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+}
+
+/****************** buttons *********************************/
+.addbtn {
+    position: absolute !important;
+    height: 50px !important;
+}
+
+.m-item_Container .addbtn ul.actionsList.flipped > li {
+    float: right !important;
+    margin-right: 5px !important;
+}
+,
+.heroNav ul.actionsList.flipped > li {
+    float: right !important;
+}
+.m-item_Container .addbtn ul.actionsList > li {
+    float: left !important;
+    display: inline-block !important;
+    padding: 2px !important;
+}
+.heroNav ul.actionsList > li {
+    float: left !important;
+    display: inline-block !important;
+    padding: 0px !important;
+}
+.m-item_Container .addbtn ul.actionsList > li > a > div, .heroNav ul.actionsList > li > a > div {
+    display: block !important;
+}
+.m-item_Container .addbtn ul.actionsList > li > a {
+    display: block !important;
+    background-color: #ebebeb !important;
+    text-decoration: none !important;
+    font-size: 26px !important;
+    font-weight: bold !important;
+    line-height: normal !important;
+    cursor: pointer !important;
+    color: #333 !important;
+    padding: 5px 15px !important;
+    border-radius: 3px !important;
+    box-shadow: #000 0px 1px 1px !important;
+}
+.heroNav ul.actionsList > li > a {
+    display: block !important;
+background-color: #ebebeb !important;
+text-decoration: none !important;
+font-size: 18px !important;
+font-weight: bold !important;
+line-height: normal !important;
+cursor: pointer !important;
+color: #333 !important;
+padding: 15px 43px !important;
+border-radius: 3px !important;
+box-shadow: #000 0px 1px 1px !important;
+background-image:none !important;
+}
+.m-item_Container .addbtn ul.actionsList > li > a:hover, .heroNav ul.actionsList > li > a:hover {
+    background-color: #767676 !important;
+    color: #fff !important;
+    background-image:none !important;
+}
+.m-item_Container .addbtn ul.actionsList > li > a:active, .heroNav ul.actionsList > li > a:active {
+    background-color: #ebebeb !important;
+    box-shadow: inset #000 0px 1px 1px !important;
+    background-image:none !important;
+    color: #333 !important;
+}
+.m-item_Container .addbtn ul.actionsList > li > a.active, .heroNav ul.actionsList > li > a.active {
+    background-color: #9c2aa0 !important;
+    color: #fff !important;
+    width:84px !important;
+    background-image:none !important;
+}
+.m-item_Container .addbtn ul.actionsList > li > a.active:hover, .heroNav ul.actionsList > li > a.active:hover {
+    background-color: #5e2750 !important;
+    color: #fff !important;
+    background-image:none !important;
+}
+.m-item_Container .addbtn ul.actionsList > li > a.active:active, .heroNav ul.actionsList > li > a.active:active {
+    background-color: #9c2aa0 !important;
+    box-shadow: inset #000 0px 1px 1px !important;
+    color: #fff !important;
+    background-image:none !important;
+}
+.m-item_Container .addbtn ul.actionsList > li > a.black {
+    background-color: #333333 !important;
+    color: #fff !important;
+    background-image:none !important;
+}
+.m-item_Container .addbtn ul.actionsList > li > a.black:hover {
+    background-color: #0000000 !important;
+    color: #fff !important;
+}
+.m-item_Container .addbtn ul.actionsList > li > a.black:active {
+    background-color: #333333 !important;
+    color: #fff !important;
+    box-shadow: inset #000 0px 1px 1px !important;
+}
+.m-item_Container .addbtn ul.actionsList > li > a.dimmed, .m-item_Container .addbtn ul.actionsList > li > a.dimmed:hover, .m-item_Container .addbtn ul.actionsList > li > a.dimmed:active {
+    background-color: #fff !important;
+    cursor: default !important;
+    color: #999 !important;
+    box-shadow: #000 0px 1px 1px !important;
+}
+.banneritems {
+    height: 270px;
+}
+
+/*.disclaimer ul.actionsList {margin:10px 0 0 0;}
+ ***********************************************************/
+.m-carousel .m-carousel-hud a {
+    opacity: 1;
+}
+.m-carousel .m-carousel-hud a:hover, .m-carousel .m-carousel-hud a:focus {
+    opacity: 1;
+}
+.m-carousel-hud a:after {
+    
+    
+    font-size: 25px;
+    font-weight: bold;
+    text-indent: 0;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 47px;
+    height: 50px;
+    z-index: 9;
+}
+.m-carousel-hud .m-carousel-prev {
+    left: 5px;
+top: 50%;
+}
+.m-carousel-hud .m-carousel-next {
+    right: 5px;
+top: 50%;
+    background-position: -989px -1834px !important;
+}
+.m-carousel-hud .m-carousel-next:after {
+    left: auto;
+    right: 0;
+}
+
+.m-carousel-hud a {
+    z-index: 2;
+    opacity: 0;
+    display: block;
+    position: absolute;
+    top: 271px;
+    width: 15px;
+    height: 46px;
+    margin: -25px 0 0 0;
+    padding: 0;
+    text-decoration: none;
+    text-indent: -999px;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.8);
+    -webkit-transition: opacity 0.1s ease-in;
+    -moz-transition: opacity 0.1s ease-in;
+    -o-transition: opacity 0.1s ease-in;
+    transition: opacity 0.1s ease-in;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    background-position: -989px -1783px !important;
+    background-image: url(../img/icon.png);
+    
+}
+.firstbanner {
+    background-color: #333333;
+}
+.secondbanner {
+    background-color: #993300;
+}
+.thirdbanner {
+    background-color: #FFF;
+}
+.fourthbanner {
+    background-color: #030;
+}
+.firstbanner .m-item_Container .backimage {
+    top: 0px;
+    right: 0px;
+}
+.secondbanner .m-item_Container .backimage {
+    top: 0px;
+    left: 0px;
+}
+.thirdbanner .m-item_Container .backimage {
+    top: 0px;
+    right: 0px;
+}
+.fourthbanner .m-item_Container .backimage {
+    top: 0px;
+    left: 0px;
+}
+
+.firstbanner .m-item_Container .TxtArea {
+    top: 100px;
+    left: 100px;
+    color: #F00;
+}
+.secondbanner .m-item_Container .TxtArea {
+    top: 0px;
+    right: 0px;
+}
+.thirdbanner .m-item_Container .TxtArea {
+    top: 0px;
+    left: 0px;
+    color: #000;
+}
+.fourthbanner .m-item_Container .TxtArea {
+    top: 0px;
+    right: 0px;
+}
+.firstbanner .m-item_Container .addbtn {
+    bottom: 0px;
+    left: 100px;
+}
+.secondbanner .m-item_Container .addbtn {
+    bottom: 0px;
+    right: 0px;
+}
+.thirdbanner .m-item_Container .addbtn {
+    bottom: 0px;
+    left: 0px;
+}
+.fourthbanner .m-item_Container .addbtn {
+    bottom: 0px;
+    right: 0px;
+}
+
+.backimage {
+    position: absolute;
+    top: 0px;
+    width: auto;
+    height: 274px;
+    overflow: hidden;
+}
+a.button_grey {
+    color: #444;
+    text-shadow: #fff 0 1px 0;
+    background-color: #ebebeb !important;
+    background-image: none !important;
+    height: 30px !important;
+}
+a.button_grey:hover {
+    background-color: #767676 !important;
+}
+a.button_grey span {
+    border-top: 1px solid #fff;
+    background-image: none !important;
+    background-color: transparent !important;
+}
+.button_grey:visited {
+    color: #444
+}
+.button_grey:hover, .button_grey:focus {
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px;
+    border-color: #969696;
+    color: #444
+}
+.button_grey:active {
+    -moz-box-shadow: inset rgba(0, 0, 0, 0.3) 0 1px 2px;
+    -webkit-box-shadow: inset rgba(0, 0, 0, 0.3) 0 1px 2px;
+    box-shadow: inset rgba(0, 0, 0, 0.3) 0 1px 2px
+}
+.button_grey:active span {
+    border-color: transparent
+}
+.buttonPrimary {
+    color: #fff;
+    text-shadow: #000 0 -1px 0;
+    border: 1px solid #582d5e;
+    background: #9c438c;
+}
+.buttonPrimary span {
+    border-top: 1px solid #b556a5
+}
+.buttonPrimary:visited {
+    color: #fff
+}
+.buttonPrimary:hover, .buttonPrimary:focus {
+    -moz-box-shadow: rgba(0, 0, 0, 0.35) 0 1px 3px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0 1px 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 1px 3px;
+    color: #fff
+}
+.buttonPrimary:hover span, .buttonPrimary:focus span {
+    border-color: #c162b4
+}
+.buttonPrimary:active {
+    -moz-box-shadow: inset rgba(0, 0, 0, 0.5) 0 1px 2px;
+    -webkit-box-shadow: inset rgba(0, 0, 0, 0.5) 0 1px 2px;
+    box-shadow: inset rgba(0, 0, 0, 0.5) 0 1px 2px
+}
+.buttonPrimary:active span {
+    border-color: transparent
+}
+
+.heroNav {
+    width: 170px;
+    margin-left: 0px;
+    float: left;
+}
+.heroNav .button_grey span {
+    border-top: none;
+    width: 100%;
+    height: 21px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: none !important;
+    text-shadow: none !important;
+    line-height: 30px;
+}
+.heroNav .button_grey span:hover {
+    background: none !important;
+    text-shadow: none !important;
+    color: #fff !important;
+}
+.heroNav .button_grey:hover {
+    text-shadow: none !important;
+    color: #fff !important;
+}
+.heroNav .headline {
+    border: 1px solid #ccc;
+    height: 33px;
+    background-color: #f4f4f4;
+}
+
+
+.heroNav .loginBox {
+    background-color: #696969;
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+    padding: 10px 15px 10px 15px;
+    height: 97px;
+    overflow: hidden
+}
+.heroNav .loginBox label {
+    width: auto;
+    display: inline;
+    color: #fff;
+    font-size: 13px;
+}
+.heroNav .loginBox input[type="text"], .heroNav .loginBox input[type="password"] {
+    margin-top: 8px;
+    width: 136px;
+    padding: 4px 5px 3px 5px;
+    font-size: 12px
+}
+.heroNav .loginBox input[type="password"] {
+    display: none
+}
+.heroNav .loginBox .buttonPrimary {
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 5px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 140px;
+}
+.heroNav .loginBox .buttonPrimary span {
+    border: none
+}
+.heroNav .button_grey {
+    display: block;
+    text-align: center;
+    padding: 0px !important;
+    text-decoration: none;
+    font-size: 14px;
+    height: 26px;
+    line-height: 30px;
+    width: 170px;
+    border-bottom: 1px solid #ccc;
+    
+    height: 31.3px !important;
+}
+/************************************************************/
+
+ul#menu {
+    float: left !important;
+display: inline !important;
+width: 880px !important;
+background-color:#e60000 !important;
+margin-left: -1px !important;
+display: block !important;
+border-radius: 3px !important;
+height: 50px !important;
+padding-top:4px !important;
+padding-bottom:4px !important;
+background-image:none !important;
+}
+ul#menulogo {
+   position: absolute;
+display: inline !important;
+width: 72px !important;
+display: block !important;
+top: 0px !important;
+left: -80px;
+ margin-top: 0px !important;
+
+}
+ul#menulogo li {
+   
+    text-align: center !important;
+    height: 50px !important;
+   margin-top: 1px !important;
+  
+    font-size: 1.25em !important;  /*-- 15px --*/
+    font-weight: bold !important;
+    display: block !important;
+}
+#rambous{
+position: absolute !important;
+top: -32px !important;
+left: -924px;
+z-index: -1 !important;
+
+}
+ul#menu >li {
+    /* float: left !important; */
+    text-align: center !important;
+    height: 53px !important;
+    border-right: 1px solid #df0000 !important;
+    margin-top: 1px !important;
+    font-size: 1.25em !important;  /*-- 15px --*/
+    font-weight: bold !important;
+    display: block !important;
+}
+ul#menu li ul li,
+ul#menu li ul li ul li {
+    font-size: 1em !important;
+}
+
+ul#menulogo li.logo img {
+    display: block !important;
+    float: left !important;
+    padding: 1px 0px !important;
+}
+
+ul#menu a:hover ul,
+ul#menu a:hover a:hover ul,
+ul#menu a:hover a:hover a:hover ul {
+    display: block !important;
+}
+
+ul#menu a {
+    display: block !important;
+    text-decoration: none !important;
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+ul#menu li:hover a {
+    color: #fff !important;
+}
+ul#menu li a:hover {
+    color: #fff !important;
+}
+ul#menu li:hover  a:hover span {
+    color: #333!important;
+}
+
+    /*----[Personal]----*/
+
+    /*----[Phones & plans]----*/
+
+ul#menu li#phonesPlanes_bookmenu {
+    width: auto !important;
+}
+ul#menu li#phonesPlanes_bookmenu >a {
+    width: auto !important;
+ height: 54px !important;
+ color:#fff !important;
+}
+ul#menu li#phonesPlanes_bookmenu a:hover,
+ul#menu li#phonesPlanes_bookmenu:hover,
+ul#menu li#phonesPlanes_bookmenu:hover a {
+    width: auto !important;
+   
+}
+ul#menu li#phonesPlanes_bookmenu a.current {
+    width: auto !important;
+   
+}
+ul#menu li#phonesPlanes_bookmenu a.current:hover,
+ul#menu li#phonesPlanes_bookmenu:hover a.current {
+    width: auto !important;
+    
+}
+ul#menu li#phonesPlanes_bookmenu a:active, ul#menu li#phonesPlanes_bookmenu a:focus {
+    width: auto !important;
+    background-position: left -58px !important;
+    color: #bd0000 !important;
+}
+
+    /*----[Applications & downloads]----*/
+
+ul#menu li#onlineAnywhere_bookmenu {
+    width: auto !important;
+}
+ul#menu li#onlineAnywhere_bookmenu > a {
+    width: auto !important; 
+     height: 54px !important;
+ color:#fff !important;
+}
+ul#menu li#onlineAnywhere_bookmenu a:hover,
+ul#menu li#onlineAnywhere_bookmenu:hover,
+ul#menu li#onlineAnywhere_bookmenu:hover a {
+    width: auto !important;
+    
+}
+ul#menu li#onlineAnywhere_bookmenu a.current {
+    width: auto !important;
+    
+}
+ul#menu li#onlineAnywhere_bookmenu a.current:hover,
+ul#menu li#onlineAnywhere_bookmenu:hover a.current {
+    width: auto !important;
+   
+}
+ul#menu li#onlineAnywhere_bookmenu a:active, ul#menu li#onlineAnywhere_bookmenu a:focus {
+    width: auto !important;
+    
+    color: #bd0000 !important;
+}
+
+    /*----[Online]----*/
+
+ul#menu li#Promotions_bookmenu {
+    width: auto !important;
+}
+ul#menu li#Promotions_bookmenu > a {
+      width: auto !important; 
+     height: 54px !important;
+ color:#fff !important;
+}
+ul#menu li#Promotions_bookmenu a:hover,
+ul#menu li#Promotions_bookmenu:hover,
+ul#menu li#Promotions_bookmenu:hover a {
+    width: auto !important;
+    
+}
+ul#menu li#Promotions_bookmenu a.current {
+    width: auto !important;
+    
+}
+ul#menu li#Promotions_bookmenu a.current:hover,
+ul#menu li#Promotions_bookmenu:hover a.current {
+    width: auto !important;
+    
+}
+ul#menu li#Promotions_bookmenu a:active, ul#menu li#Promotions_bookmenu a:focus {
+    width: auto !important;
+   
+    color: #bd0000 !important;
+}
+
+    /*----[Personal support]----*/
+
+ul#menu li#helpAndSupport_bookmenu{
+    width: auto !important;
+}
+ul#menu li#helpAndSupport_bookmenu >a {
+        width: auto !important; 
+     height: 54px !important;
+ color:#fff !important;
+}
+ul#menu li#helpAndSupport_bookmenua:hover,
+ul#menu li#helpAndSupport_bookmenu:hover,
+ul#menu li#helpAndSupport_bookmenu:hover a {
+    width: auto !important;
+    
+}
+ul#menu li#helpAndSupport_bookmenua.current {
+    width: auto !important;
+   
+}
+ul#menu li#helpAndSupport_bookmenua.current:hover,
+ul#menu li#helpAndSupport_bookmenu:hover a.current {
+    width: auto !important;
+
+}
+ul#menu li#helpAndSupport_bookmenua:active, ul#menu li#helpAndSupport_bookmenua:focus {
+    width: auto !important;
+    
+    color: #bd0000 !important;
+}
+
+    /*----[Business]----*/
+
+    /*----[Business products]----*/
+
+ul#menu li.products {
+    width: 203px !important;
+}
+ul#menu li.products a {
+    width: 203px !important; height: 50px !important;
+}
+ul#menu li.products a:hover,
+ul#menu li.products:hover,
+ul#menu li.products:hover a {
+    width: 203px !important;
+}
+ul#menu li.products a.current {
+    width: 203px !important;
+}
+ul#menu li.products a.current:hover,
+ul#menu li.products:hover a.current {
+    width: 203px !important;
+}
+ul#menu li.products a:active, ul#menu li.products a:focus {
+    width: 203px !important;
+    background: #f80000 url(../img/menu/products.gif) left -58px no-repeat !important;
+    color: #bd0000 !important;
+}
+
+    /*----[Total communications]----*/
+
+ul#menu li.comms {
+    width: 235px !important;
+}
+ul#menu li.comms a {
+    width: 235px !important;
+    background: #f80000 url(../img/menu/comms.gif) left top no-repeat !important; height: 50px !important;
+}
+ul#menu li.comms a:hover,
+ul#menu li.comms:hover,
+ul#menu li.comms:hover a {
+    width: 235px !important;
+    background: #f80000 url(../img/menu/comms.gif) left -58px no-repeat !important;
+}
+ul#menu li.comms a.current {
+    width: 235px !important;
+    background: #bd0000 url(../img/menu/comms.gif) left -116px no-repeat !important;
+}
+ul#menu li.comms a.current:hover,
+ul#menu li.comms:hover a.current {
+    width: 235px !important;
+    background: #bd0000 url(../img/menu/comms.gif) left -174px no-repeat !important;
+}
+ul#menu li.comms a:active, ul#menu li.comms a:focus {
+    width: 235px !important;
+    background: #f80000 url(../img/menu/comms.gif) left -58px no-repeat !important;
+    color: #bd0000 !important;
+}
+
+    /*----[Bright ideas]----*/
+
+ul#menu li.ideas {
+    width: 153px !important;
+}
+ul#menu li.ideas a {
+    width: 153px !important;
+    background: #f80000 url(../img/menu/ideas.gif) left top no-repeat !important; height: 50px !important;
+}
+ul#menu li.ideas a:hover,
+ul#menu li.ideas:hover,
+ul#menu li.ideas:hover a {
+    width: 153px !important;
+    background: #f80000 url(../img/menu/ideas.gif) left -58px no-repeat !important;
+}
+ul#menu li.ideas a.current {
+    width: 153px !important;
+    background: #bd0000 url(../img/menu/ideas.gif) left -116px no-repeat !important;
+}
+ul#menu li.ideas a.current:hover,
+ul#menu li.ideas:hover a.current {
+    width: 153px !important;
+    background: #bd0000 url(../img/menu/ideas.gif) left -174px no-repeat !important;
+}
+ul#menu li.ideas a:active, ul#menu li.ideas a:focus {
+    width: 153px !important;
+    background: #f80000 url(../img/menu/ideas.gif) left -58px no-repeat !important;
+    color: #bd0000 !important;
+}
+
+    /*----[Business support]----*/
+
+ul#menu li.businessSupport {
+    width: 124px !important;
+}
+ul#menu li.businessSupport a {
+    width: 124px !important;
+    background: #f80000 url(../img/menu/business_support.gif) left top no-repeat !important; height: 50px !important;
+}
+ul#menu li.businessSupport a:hover,
+ul#menu li.businessSupport:hover,
+ul#menu li.businessSupport:hover a {
+    width: 124px !important;
+    background: #f80000 url(../img/menu/business_support.gif) left -58px no-repeat !important;
+}
+ul#menu li.businessSupport a.current {
+    width: 124px !important;
+    background: #bd0000 url(../img/menu/business_support.gif) left -116px no-repeat !important;
+}
+ul#menu li.businessSupport a.current:hover,
+ul#menu li.businessSupport:hover a.current {
+    width: 124px !important;
+    background: #bd0000 url(../img/menu/business_support.gif) left -174px no-repeat !important;
+}
+ul#menu li.businessSupport a:active, ul#menu li.businessSupport a:focus {
+    width: 124px !important;
+    background: #f80000 url(../img/menu/business_support.gif) left -58px no-repeat !important;
+    color: #bd0000 !important;
+}
+
+    /*----[About us]----*/
+    
+ul#menu li.aboutVodafone {
+    width: 198px !important;
+}
+ul#menu li.aboutVodafone a {
+    width: 198px !important;
+    background: #f80000 url(../img/menu/about.gif) left top no-repeat !important; height: 50px !important;
+}
+ul#menu li.aboutVodafone a:hover,
+ul#menu li.aboutVodafone:hover,
+ul#menu li.aboutVodafone:hover a {
+    width: 198px !important;
+    background: #f80000 url(../img/menu/about.gif) left -58px no-repeat !important;
+}
+ul#menu li.aboutVodafone a.current {
+    width: 198px !important;
+    background: #bd0000 url(../img/menu/about.gif) left -116px no-repeat !important;
+}
+ul#menu li.aboutVodafone a.current:hover,
+ul#menu li.aboutVodafone:hover a.current {
+    width: 198px !important;
+    background: #bd0000 url(../img/menu/about.gif) left -174px no-repeat !important;
+}
+ul#menu li.aboutVodafone a:active, ul#menu li.aboutVodafone a:focus {
+    width: 198px !important;
+    background: #f80000 url(../img/menu/about.gif) left -58px no-repeat !important;
+    color: #bd0000 !important;
+}
+
+ul#menu li.press {
+    width: 122px !important;
+}
+ul#menu li.press a {
+    width: 122px !important;
+    background: #f80000 url(../img/menu/press.gif) left top no-repeat !important; height: 50px !important;
+}
+ul#menu li.press a:hover,
+ul#menu li.press:hover,
+ul#menu li.press:hover a {
+    width: 122px !important;
+    background: #f80000 url(../img/menu/press.gif) left -58px no-repeat !important;
+}
+ul#menu li.press a.current {
+    width: 122px !important;
+    background: #bd0000 url(../img/menu/press.gif) left -116px no-repeat !important;
+}
+ul#menu li.press a.current:hover,
+ul#menu li.press:hover a.current {
+    width: 122px !important;
+    background: #bd0000 url(../img/menu/press.gif) left -174px no-repeat !important;
+}
+ul#menu li.press a:active, ul#menu li.press a:focus {
+    width: 122px !important;
+    background: #f80000 url(../img/menu/press.gif) left -58px no-repeat !important;
+    color: #bd0000 !important;
+}
+
+ul#menu li.corporateResponsibility {
+    width: 258px !important;
+}
+ul#menu li.corporateResponsibility a {
+    width: 258px !important;
+    background: #f80000 url(../img/menu/cr.gif) left top no-repeat !important; height: 50px !important;
+}
+ul#menu li.corporateResponsibility a:hover,
+ul#menu li.corporateResponsibility:hover,
+ul#menu li.corporateResponsibility:hover a {
+    width: 258px !important;
+    background: #f80000 url(../img/menu/cr.gif) left -58px no-repeat !important;
+}
+ul#menu li.corporateResponsibility a.current {
+    width: 258px !important;
+    background: #bd0000 url(../img/menu/cr.gif) left -116px no-repeat !important;
+}
+ul#menu li.corporateResponsibility a.current:hover,
+ul#menu li.corporateResponsibility:hover a.current {
+    width: 258px !important;
+    background: #bd0000 url(../img/menu/cr.gif) left -174px no-repeat !important;
+}
+ul#menu li.corporateResponsibility a:active, ul#menu li.corporateResponsibility a:focus {
+    width: 258px !important;
+    background: #f80000 url(../img/menu/cr.gif) left -58px no-repeat !important;
+    color: #bd0000 !important;
+}
+
+ul#menu li.careers {
+    width: 137px !important;
+}
+ul#menu li.careers a {
+    width: 137px !important;
+    background: #f80000 url(../img/menu/careers.gif) left top no-repeat !important; height: 50px !important;
+}
+ul#menu li.careers a:hover,
+ul#menu li.careers:hover,
+ul#menu li.careers:hover a {
+    width: 137px !important;
+    background: #f80000 url(../img/menu/careers.gif) left -58px no-repeat !important;
+}
+ul#menu li.careers a.current {
+    width: 137px !important;
+    background: #bd0000 url(../img/menu/careers.gif) left -116px no-repeat !important;
+}
+ul#menu li.careers a.current:hover,
+ul#menu li.careers:hover a.current {
+    width: 137px !important;
+    background: #bd0000 url(../img/menu/careers.gif) left -174px no-repeat !important;
+}
+ul#menu li.careers a:active, ul#menu li.careers a:focus {
+    width: 137px !important;
+    background: #f80000 url(../img/menu/careers.gif) left -58px no-repeat !important;
+    color: #bd0000 !important;
+}
+
+
+    /*----[Search in menu bar]----*/
+
+        
+form div.search {
+    background-color: #E60000 !important;
+    background-image: none !important;
+    height: 58px !important;
+    border-radius: 3px;
+}
+    
+ul#menu li.search,
+ul#menu li.search:hover {
+    border-right: none !important;
+}
+ul#menu li.search input#search {
+    background: url(../img/menu/search_box_2.gif) left top no-repeat #fff !important;
+    width: 101px !important;
+    padding: 7px 0 7px 7px !important;
+    position: relative !important;
+    vertical-align: top !important;
+    top: 15px !important;
+    margin: 0 0 0 9px !important;
+}
+ul#menu li.search #btnSearch {
+    height: 30px !important;
+    width: 31px !important;
+    position: relative !important;
+    top: 15px !important;
+    right: 5px !important;
+}
+ul#menu li.search legend,
+ul#menu li.search label {
+    font-size: 0 !important;
+    height: 0 !important;
+    line-height: 0 !important;
+    width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-indent: -999em !important;
+    display: none !important;
+}
+
+    /*----[The mega dropdowns]----*/
+
+ul#menu li ul {
+    position: absolute !important;
+    left: 0 !important;
+    top: 52px !important;
+    width: 952px;
+}
+ul#menu li.menuItem a { background:none !important; margin-top: 0px !important; padding-right:30px !important; padding-left: 10px; padding-top: 0px !important;}
+ul#menu li:hover {
+    /* position:relative !important; */
+    z-index: 100 !important;
+}
+
+ul#menu li:hover>a {
+    /*background-color:#fff !important;*/
+}
+ul#menu li a:hover {
+    position: relative !important;
+}
+ul#menu li ul li a:hover {
+    /*background-color: #fff !important;*/
+}
+
+ul#menu ul,
+ul#menu li ul {
+    display:none;
+}
+ul#menu ul,ul#menu li:hover>ul {
+    display:block
+}
+
+    /* New stuff */
+
+
+ul#menu li ul.submenu1 li {
+    background: #fff !important;
+    padding: 0 !important;
+    /* float: left !important; */
+    border: none !important;
+    /* width: 100%; */
+}
+ul#menu li ul li.submenu1 .subNavWrapper {
+    float: left !important;
+    display: inline !important;
+    background: #fff !important;
+    border-left: 1px solid #dbdbdb !important;
+    border-right: 1px solid #dbdbdb !important;
+    border-bottom: 1px solid #dbdbdb !important;
+    padding: 10px 5px !important;
+    font-size: 0.8em !important;
+    font-weight: normal !important;
+   
+}
+
+ul#menu li#phonesPlanes_bookmenu ul li .subNavWrapper,
+ul#menu li.products ul li .subNavWrapper {
+   
+}
+ul#menu li#phonesPlanes_bookmenu:hover ul  {
+    display:block !important;
+    
+}
+ul#menu li#helpAndSupport_bookmenu ul li .subNavWrapper,
+ul#menu li.businessSupport ul li .subNavWrapper,
+ul#menu li.aboutVodafone ul li .subNavWrapper,
+ul#menu li.press ul li .subNavWrapper,
+ul#menu li.corporateResponsibility ul li .subNavWrapper,
+ul#menu li.careers ul li .subNavWrapper {
+   
+}
+
+ul#menu li ul li .subNavWrapper div {
+    float: left !important;
+    display: inline !important;
+    width: 150px !important;
+    text-align: left !important;
+    background: #fff !important;
+    padding: 0 5px !important;
+    display: block !important;
+    background: #fff !important;   
+}
+ul#menu li ul li .subNavWrapper div a,
+ul#menu li ul li:hover .subNavWrapper div a,
+ul#menu li:hover ul li .subNavWrapper div a {
+    background: #fff !important;
+    height: auto !important;
+    width: auto !important;   
+    color:#000 !important;
+}
+ul#menu li ul li .subNavWrapper div a:hover {
+    color: #bd0000 !important;
+    background: #fff !important;
+    height: auto !important;
+    width: auto !important;   
+}
+
+ul#menu li ul li div.support {
+    background: #ebeaea !important !important;
+    width: 130px !important;
+    margin: 0 5px !important;
+    padding: 10px 0 0 10px !important;
+    height: auto !important;
+overflow:hidden;    
+}
+ul#menu li ul li div.support a {
+    background: #ebeaea !important !important; 
+}
+ul#menu li ul li div.support img {
+    padding: 3px 0 0 0 !important;   
+}
+ul#menu li ul li div p {
+    font-size: 1.167em !important;
+    font-weight: bold !important;
+    /* border-bottom: 1px solid #e5e5e5 !important; */
+    padding-bottom: 7px !important; 
+    width: 90% !important;
+    font-size: 14px !important;
+}
+
+ul#menu li ul li div.support p {
+    background: transparent url(../img/megamenu/support_icon.png) left top no-repeat !important;
+    padding-left: 20px !important;
+    width: 110px !important;
+    height: 3em !important; 
+}
+ul#menu li ul li div img {
+    padding: 0 0 13px 0 !important;   
+}
+ul#menu li ul li div a {
+    width: 90% !important;
+    background: #000 !important;
+    height: auto !important;
+    font-weight: normal !important !important;
+}
+ul#menu li ul li div a:hover,
+ul#menu li ul li .subnav a:active {
+    color: #bd0000 !important;
+}
+
+/*-- Needs to be adjusted for shading in support columns to be full height --*/
+
+ul#menu li#phonesPlanes_bookmenu ul li div {
+    min-height: 17em !important;
+}
+ul#menu li#onlineAnywhere_bookmenu ul li div {
+    min-height: 16.9em !important;
+}
+ul#menu li#onlineAnywhere_bookmenu:hover ul  {
+    display:block !important;
+}
+ul#menu li#Promotions_bookmenu ul li div {
+    min-height: 15.2em !important;
+}
+ul#menu li#helpAndSupport_bookmenu:hover ul  {
+    display:block !important;
+}
+ul#menu li#helpAndSupport_bookmenuul li div {
+    min-height: 13.8em !important;
+}
+ul#menu li#Promotions_bookmenu:hover ul  {
+    display:block !important;
+}
+ul#menu li.products ul li div {
+    min-height: 20.1em !important;
+}
+ul#menu li.comms ul li div {
+    min-height: 17.848em !important;
+}
+ul#menu li.ideas ul li div {
+    min-height: 16.9em !important;
+}
+ul#menu li.businesSupport ul li div {
+    min-height: 13.8em !important;
+}
+
+.herospaceImage{
+    width: 780px !important;
+height: 276px !important;
+margin-right: 6px !important;
+float: right !important;
+}
+
+#vodafone_footer{
+background-color:#333 !important;
+}
+.footer a {
+ 
+    color: #fff !important;
+}
+
+
+.footer ul{
+border-right : 1px solid #333 !important;
+}
+
+
+.footer {
+margin-top : 15px !important;
+}
+
+
+.cpyRight p {
+color:#fff !important;
+}
+
+/***********************************************************************************************/
+
+/***********************************************************************************************/
+
+
+/***************** Starting Muhammad Mustafa Module Carousel ***********************************/
+
+.module_carousel_latestnews {
+background-color: #FFFFFF;
+    border-bottom: 2px solid #CCCCCC;
+    border-right: 2px solid #CCCCCC;
+    height: 368px !important;
+    overflow: hidden;
+    position: relative;
+    width: 348px;
+}
+
+.module_carousel_latestnews_title {
+    float: left;
+    font-size: 20px;
+    margin-left: 7px;
+    margin-top: 8px;
+    
+}
+
+.module_carousel_latestnews_title a {
+color: #333 !important;
+font-family: vodafone rg !important;
+text-decoration: none!important;    
+}
+
+.module_carousel_latestnews_text1 {
+    margin-top: 20px;
+    font-size: 14px;
+    width: 80%;
+}
+
+@font-face {
+    font-family: VodafoneLt;
+    src: url(../font/VodafoneLt.ttf);
+}
+
+@font-face {
+    font-family: VodafoneRg;
+    src: url(../font/VodafoneRg.ttf);
+}
+@font-face {
+    font-family: VodafoneRgBd;
+    src: url(../font/VodafoneRgBd.ttf);
+}
+
+.Module_CarouselContainer > li {
+    position: relative;
+    height: 260px;
+    margin: 0px !important;
+    overflow: hidden;
+    display: block;
+    width: 1750px;;
+}
+
+.module_carousel_latestnews_prev {
+    width: 35px;
+    height: 33px;
+    background-image: url(../img/icon_module_carousel.png);
+    background-position: -19px -49px;
+    float: left;
+}
+
+.module_carousel_latestnews_next {
+    width: 35px;
+    height: 33px;
+    background-image: url(../img/icon_module_carousel.png);
+    background-position: -54px -49px;
+    float: left;
+}
+
+.module_carousel_animated_ul {
+    width: 100% !important;
+    height: auto !important;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    overflow:hidden;
+}
+
+.module_carousel_animated_ul > li {
+    width: 350px !important;
+    height: 260px;
+    float: left;
+    margin: 0 0 0 0;
+    display: block;
+    cursor: pointer;
+    position: relative;
+}
+
+.module_carousel_animated_ul > li .banner_img {
+    background-color: #666666;
+    display: block;
+    height: 184px;
+    left: 8px;
+    position: absolute;
+    top: 5px;
+    width: 333px;
+}
+
+.module_carousel_latestnews_prev_and_next_buttons {
+     float: right;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.module_carousel_animated_ul_text1 {
+    position: absolute;
+    top: 185px;
+    
+    left: 5px;
+}
+.module_carousel_animated_ul_text1  p{
+    
+    
+    font-size: 15px;
+    margin-left: 3px;
+    margin-top: 12px;
+    
+}
+
+.module_carousel_animated_ul_text2 {
+    position: absolute;
+    top: 225px;
+    left: 5px;
+    font-size: 13px;
+    color: #333;
+}
+.module_carousel_animated_ul_text2 p {
+    font-size: 13px;
+margin-top: 10px;
+}
+
+.module_carousel_animated_ul_btn_div {
+    position: absolute;
+top: 300px !important;
+left: -7px;
+}
+
+
+.module_carousel_general_note{
+
+padding: 5px;
+background-color: rgb(244, 244, 244);
+width: 92%;
+margin: 1px auto;
+
+}
+
+/***************** Ending Muhammad Mustafa Module Carousel ***********************************/
+ul#menu li ul li div h3{
+    font-size: 14px !important;
+    font-weight: bold !important;
+    border-bottom: 1px solid #e5e5e5 !important;
+    padding-bottom: 7px !important; 
+    width: 90% !important;
+    margin-top: 5px;
+    font-family: arial;
+    margin-bottom: 7px;
+} 
+ .submenu2:hover{
+color:#fff !important;
+}
+ul#menu li.menuItem.active {
+
+}
+ul#menu li.menuItem.active 
+{
+background-color:transparent !important;
+
+}
+
+
+ul#menu li.menuItem:hover a.active, ul#menu li.menuItem a.active:hover {
+    background: none repeat scroll 0% 0% !important;
+    background-color:transparent !important
+    }
+ul#menu li.menuItem.active span {
+top:0px !important
+}
+
+ul#menu li.menuItem.active  span:first-child 
+{
+top:15px !important
+
+}
+ul#menu li.menuItem:hover>a:first-child {
+color:#fff !important;
+}
+ul#menu li.menuItem  ul li div.subnav-wrap:hover div.support > h3,ul#menu li.menuItem ul li div.subnav-wrap:hover div.support > p{
+color:#333 !important
+}
+
+/***** add new css to megamenus.css ****** Sent by Moghazy on 20-11-2013 *********/
+.m-item_Container .addbtn ul.actionsList > li > a.active, .heroNav ul.actionsList > li > a.active{
+width: 84px !important;
+}
+
+.heroNav .button_grey{
+width: 172px !important;
+}
+
+.m-item_Container .addbtn ul.actionsList > li > a > div, .heroNav ul.actionsList > li > a > div{
+width: 95px !important;
+}
+
+ul#menu li:hover {
+background: #fff;
+color: #333;
+}
+
+ul#menu li a span:hover {
+color:#333;}
+
+ul#menu li:hover a span {
+color: #333;
+}
+.menuItem {
+    margin-left: 5px;
+}
+/***************End add new css to megamenus.css*****************/

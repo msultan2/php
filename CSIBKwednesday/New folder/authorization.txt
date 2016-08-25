@@ -1,0 +1,7 @@
+use SOC;
+#insert into ActivityAuthorization set Name='Sbendary' ,Activity='Radio';
+insert into ActivityAuthorization set Name='Sbendary' ,Activity='Transmission';
+#insert into ActivityAuthorization set Name='Sbendary' ,Activity='Activity Log';
+insert into ActivityAuthorization set Name='Sbendary' ,Activity='Mismatch Report';
+insert into ActivityAuthorization set Name='Sbendary' ,Activity='Activity Operation';
+#insert into ActivityAuthorization set Name='Sbendary' ,Activity='CM Statistics';
